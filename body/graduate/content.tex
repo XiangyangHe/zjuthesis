@@ -1,4 +1,4 @@
-\chapter{关于本模板}
+\chapter{绪论}
 
 本模板根据浙江大学研究生院编写的《浙江大学研究生学位论文编写规则》~\cite{zjugradthesisrules}，
 在原有的 zjuthesis 模板~\cite{zjuthesis}基础上开发而来。
@@ -14,24 +14,24 @@
 如果有热心同学愿意帮忙，
 可以替我联系相关老师，我会配合审核并修改代码。
 
-\section{Overleaf 使用注意事项}
+\section{背景}
 
-如果你在Overleaf上编译本模板，请注意如下事项：
+% 如果你在Overleaf上编译本模板，请注意如下事项：
 
-\begin{itemize}
-    \item 删除根目录的 ``.latexmkrc'' 文件，否则编译失败且不报任何错误
-    \item 字体有版权所以本模板不能附带字体，请务必手动上传字体文件，并在各个专业模板下手动指定字体。
-        具体方法参照 GitHub 主页的说明。
-    \item 当前的Overleaf默认使用TexLive 2017进行编译，但一些伪粗体复制乱码的问题需要TexLive 2019版本来解决。
-        所以各位同学可以在Overleaf上编写论文时务必切换到TexLive 2019或更新版本来编译，以免产生查重相关问题。
-        具体说明参照 GitHub 主页。
-\end{itemize}
+% \begin{itemize}
+%     \item 删除根目录的 ``.latexmkrc'' 文件，否则编译失败且不报任何错误
+%     \item 字体有版权所以本模板不能附带字体，请务必手动上传字体文件，并在各个专业模板下手动指定字体。
+%         具体方法参照 GitHub 主页的说明。
+%     \item 当前的Overleaf默认使用TexLive 2017进行编译，但一些伪粗体复制乱码的问题需要TexLive 2019版本来解决。
+%         所以各位同学可以在Overleaf上编写论文时务必切换到TexLive 2019或更新版本来编译，以免产生查重相关问题。
+%         具体说明参照 GitHub 主页。
+% \end{itemize}
 
 
-\section{节标题}
+\section{研究现状}
 
-我们可以用includegraphics来插入现有的jpg等格式的图片，
-如\autoref{fig:zju-logo}所示。
+% 我们可以用includegraphics来插入现有的jpg等格式的图片，
+% 如\autoref{fig:zju-logo}所示。
 
 \begin{figure}[htbp]
     \centering
@@ -39,8 +39,12 @@
     \caption{\label{fig:zju-logo}浙江大学LOGO}
 \end{figure}
 
+重点突出目前的研究处于什么状态，尚存在的问题
 
-\subsection{小节标题}
+\subsection{体数据相关性分析}
+\subsection{体数据特征提取}
+\subsection{体数据表征学习}
+\section{本文工作及组织结构}
 
 
 \par 如\autoref{tab:sample}所示，这是一张自动调节列宽的表格。
@@ -64,13 +68,181 @@
     A=\overbrace{(a+b+c)+\underbrace{i(d+e+f)}_{\text{虚数}}}^{\text{复数}}
 \end{equation}
 
-\chapter{另一章}
+\chapter{体数据嵌入表征的学习与应用}
 
+\section{传统的体数据信息表达（TODO：在后面提及，本节不写）}
+\subsection{基于数值统计的信息表达方法（TODO：在第三章、第四章提及）}
+通过挖掘体数据内部的属性，如标量值、梯度、统计学等信息对数据进行深层次表达
+
+【数据压缩】
+
+【统计分布】
+
+\subsection{基于拓扑结构的信息表达方法（在第五章提及）}
+
+通过树、图等数据组织方式对数据进行抽象表征（TODO：暂不提及）
+
+【contour tree】
+
+【Reeb Graph】
+
+【nested tracking graphs (2017)】
+
+【Dynamic nested tracking graphs (2019)】
+
+【fiber surfaces: Generalizing isosurfaces to bivariate data (2015)】
+
+【Transgraph: Hierarchical exploration of transition relationships in time-varying volumetric data (2011)】
+
+【persistence diagram】
+
+【Graphs in scientific visualization: A survey (2017)】
+
+【Joint contour nets (2014)】
+
+
+\section{体数据相关性分析}
+\subsection{体素相关性}
+\subsection{数值相关性}
+\subsection{体数据整体相关性}
+\subsection{特征相关性}
+
+【Transgraph: Hierarchical exploration of transition relationships in time-varying volumetric data (2011)】
+
+\section{体数据特征提取}
+\subsection{单变量体数据特征提取}
+
+基于传统方式的特征提取方法
+
+【Texture-based transfer functions for direct volume rendering (2008)】
+
+【State of the art in transfer functions for direct volume rendering (2016)】
+
+基于机器学习的特征提取方法
+
+【Semi-automatic generation of transfer functions for direct volume rendering (1998)】
+
+【An intelligent system approach to higher-dimensional classification of volume data (2005)】
+
+【Featurelego: Volume exploration using exhaustive clustering of super-voxels (2019)】
+
+【An Intelligent System Approach for Probabilistic Volume Rendering using Hierarchical 3D Convolutional Sparse Coding (2019)】
+
+【Learning probabilistic transfer functions: A comparative study of classifiers (2018)】
+
+\subsection{多变量体数据特征提取}
+【Biclusters based visual exploration of multivariate scientific data visualization (2018)】
+
+【Easyxplorer: A flexible visual exploration approach for multivariate spatial data (2015)】
+
+【Guideme: Slice-guided semiautomatic multivariate exploration of volumes (2014)】
+
+\subsection{时序体数据特征提取}
+特征演化
+
+【nested tracking graphs ((2017))】
+
+【Dynamic nested tracking graphs (2019)】
+
+特征追踪
+
+【】
+
+
+\section{基于深度学习的体数据分析方法/深度学习在体数据中的应用}
+传统的体数据表达缺陷
+
+深度学习方法
+
+特征-based
+
+【Flownet: A deep learning framework for clustering and selection of streamlines and stream surfaces (2018)】
+
+【Insitunet: Deep image synthesis for parameter space exploration of ensemble simulations (2020)】
+
+体数据-based
+
+【A deep learning approach to selecting representative time steps for time-varying multivariate data (2019)】
+
+【V2v: A deep learning approach to variable-to-variable selection and translation for multivariate time-varying data (2020)】
+
+【Tsr-tvd: Temporal super-resolution for time-varying data analysis and visualization (2020)】
+
+体素-based
+
+【An intelligent system approach to higher-dimensional classification of volume data】
+
+【A Cluster-Space Visual Interface for Arbitrary Dimensional Classification of Volume Data】
+
+
+\subsection{基于图论的体数据表征学习}
+
+树、图的进一步表征（）
+
+【】
+
+
+\chapter{基于自然语言处理的体数据嵌入表征的学习与应用}
+
+\section{引言}
+
+\section{voxel2vec}
+\subsection{Skip-Gram模型}
+\subsection{负采样}
+\subsubsection{适应性负采样}
+\subsubsection{自取代学习}
+\subsection{模型训练}
+
+\section{应用}
+\subsection{多变量体数据特征分类}
+\subsection{关联性分析}
+\subsubsection{时变体数据关联性分析}
+\subsubsection{组集体数据关联性分析}
+\subsubsection{时变组集体数据关联性分析}
+
+\section{讨论}
+\subsection{超参数分析}
+\subsection{效率分析}
+\subsection{voxel2vec模型分析}
+\subsection{单变量体数据上的验证}
+\subsubsection{比较}
+\subsubsection{负采样策略分析}
+\subsection{与已有工作的对比}
+\section{本章小结}
+
+\chapter{数值-变量嵌入表征的学习与应用}
+\section{引言}
+\section{ScalarGCN}
+\subsection{ScalarGraph}
+\subsubsection{结构构建}
+\subsubsection{节点特征构建}
+\subsection{ScalarGCN搭建}
+\subsection{模型训练}
+\section{应用}
+\subsection{单变量特征分类}
+\subsection{多变量相关性分析}
+\subsubsection{时变体数据关联性分析}
+\subsubsection{组集体数据关联性分析}
+\subsubsection{时变组集体数据关联性分析}
+\subsection{结果分析}
+\section{讨论}
+\section{本章小结}
+
+\chapter{基于图卷积网络的半监督体数据特征分类方法}
+\section{引言}
+\section{超体素图的生成}
+\section{模型搭建}
+\section{应用分析}
+\section{讨论}
+\section{本章小结}
+
+
+\chapter{总结与展望}
+\subsection{本文工作总结}
+\subsection{未来工作展望}
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=.3\linewidth]{example-image-a}
     \caption{\label{fig:fig-placeholder}图片占位符}
 \end{figure}
-
-\chapter{再一章}
