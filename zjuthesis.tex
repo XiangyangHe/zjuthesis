@@ -15,7 +15,7 @@
 
 \documentclass[
     % Debugging Settings
-    PrintFilePath   = false,            % print tex file path for each page
+    PrintFilePath   = true,            % print tex file path for each page
     % Layout Settings
     TwoSide         = false,             % set to false if don't need empty pages
     % Thesis Info
@@ -42,9 +42,14 @@
 ]{zjuthesis}
 
 
+
 %% Uncomment the following lines if you need multi line titles on cover pages
 % \titletwolines{毕业论文题目第一行}{毕业论文题目第二行}
 \titleengtwolines{Learning and Application of}{the Representations of Volumes}
+
+
+\usepackage{algorithm}
+
 
 %% Uncomment the following lines if you need multi line department names on cover pages
 % \departmenttwolines{学院名第一行}{学院名第二行}
@@ -135,6 +140,12 @@
     \poststyle
     \inputbody{post}
 }
+
+
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{lscape}
 
 \begin{document}
 

@@ -1,0 +1,3737 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 由 Microsoft Visio, SVG Export 生成 voxel2vec_framework.svg 页-1 -->
+
+<svg
+   xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="15.2469in"
+   height="8.04919in"
+   viewBox="0 0 1097.78 579.541"
+   xml:space="preserve"
+   color-interpolation-filters="sRGB"
+   class="st37"
+   version="1.1"
+   id="svg1302"
+   sodipodi:docname="voxel2vec_framework.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata1306"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="2560"
+   inkscape:window-height="1417"
+   id="namedview1304"
+   showgrid="false"
+   inkscape:zoom="0.55179648"
+   inkscape:cx="-78.382412"
+   inkscape:cy="237.47052"
+   inkscape:window-x="1072"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg1302" />
+	<v:documentProperties
+   v:langID="2052"
+   v:metric="true"
+   v:viewMarkup="false" />
+
+	<style
+   type="text/css"
+   id="style659">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#bfbfbf;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.5}
+		.st2 {fill:#f2f2f2;stroke:#bfbfbf;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.5}
+		.st3 {fill:#000000;font-family:�S;font-size:2.50001em;font-stretch:semi-expanded}
+		.st4 {font-family:Times New Roman;font-size:0.799995em}
+		.st5 {font-size:0.799995em}
+		.st6 {font-family:Times New Roman;font-size:1em}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:2.50001em;font-stretch:semi-expanded}
+		.st8 {font-family:�S;font-size:1em}
+		.st9 {fill:#0070c0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st10 {fill:#ff0000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st11 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st12 {fill:#000000;font-family:�S;font-size:1.99999em}
+		.st13 {marker-end:url(#mrkr13-68);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st14 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.54347810290279}
+		.st15 {fill:#bfbfbf;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st16 {fill:#000000;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st17 {fill:#1562a9;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st18 {fill:#d7e6f4;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st19 {fill:#1f3970;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st20 {fill:#9ac7e0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st21 {fill:#2d7dbb;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st22 {fill:#c4daee;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st23 {fill:#084286;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st24 {fill:#e5eff9;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st25 {fill:#f7f1ff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st26 {fill:#08519c;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st27 {fill:#08306b;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st28 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st29 {fill:#000000;font-family:Times New Roman;font-size:1.99999em}
+		.st30 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st31 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st32 {fill:#bfbfbf;stroke:none;stroke-width:0.999999}
+		.st33 {fill:none}
+		.st34 {stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st35 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st36 {fill:#ffffff;stroke:#bfbfbf;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24;visibility:hidden}
+		.st37 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs
+   id="Patterns_And_Gradients">
+		<linearGradient
+   id="grad0-12"
+   x1="0"
+   y1="0"
+   x2="1"
+   y2="0"
+   gradientTransform="rotate(90 0.5 0.5)">
+			<stop
+   offset="0.01"
+   stop-color="#bfbfbf"
+   stop-opacity="1"
+   id="stop661" />
+			<stop
+   offset="0.5"
+   stop-color="#757575"
+   stop-opacity="1"
+   id="stop663" />
+			<stop
+   offset="1"
+   stop-color="#bfbfbf"
+   stop-opacity="1"
+   id="stop665" />
+		</linearGradient>
+	<clipPath
+   id="clipEmfPath1"
+   clipPathUnits="userSpaceOnUse"><path
+     id="path1356"
+     d="M 2.0900787,2.0900787 L 465.04252,2.0900787 L 465.04252,136.90016 L 2.0900787,136.90016 z" /></clipPath><pattern
+   y="0"
+   x="0"
+   height="6"
+   width="6"
+   patternUnits="userSpaceOnUse"
+   id="EMFhbasepattern" /><clipPath
+   id="clipEmfPath1-9"
+   clipPathUnits="userSpaceOnUse"><path
+     id="path1380"
+     d="M 2.0900787,2.0900787 L 465.04252,2.0900787 L 465.04252,130.62992 L 2.0900787,130.62992 z" /></clipPath><pattern
+   y="0"
+   x="0"
+   height="6"
+   width="6"
+   patternUnits="userSpaceOnUse"
+   id="EMFhbasepattern-1" /><clipPath
+   id="clipEmfPath1-7"
+   clipPathUnits="userSpaceOnUse"><path
+     id="path1413"
+     d="M 2.0900787,2.0900787 L 465.04252,2.0900787 L 465.04252,126.44976 L 2.0900787,126.44976 z" /></clipPath><pattern
+   y="0"
+   x="0"
+   height="6"
+   width="6"
+   patternUnits="userSpaceOnUse"
+   id="EMFhbasepattern-0" /></defs>
+	<defs
+   id="Markers">
+		<g
+   id="lend13">
+			<path
+   d="M 3 1 L 0 0 L 3 -1 L 3 1 "
+   style="stroke:none"
+   id="path669" />
+		</g>
+		<marker
+   id="mrkr13-68"
+   class="st14"
+   v:arrowType="13"
+   v:arrowSize="2"
+   v:setback="0"
+   refX="-0"
+   orient="auto"
+   markerUnits="strokeWidth"
+   overflow="visible">
+			<use
+   xlink:href="#lend13"
+   transform="scale(-1.8400005348125,-1.8400005348125) "
+   id="use672" />
+		</marker>
+	</defs>
+	<g
+   v:mID="0"
+   v:index="1"
+   v:groupContext="foregroundPage"
+   id="g1300">
+		<title
+   id="title676">页-1</title>
+		<v:pageProperties
+   v:drawingScale="0.0393701"
+   v:pageScale="0.0393701"
+   v:drawingUnits="24"
+   v:shadowOffsetX="8.50394"
+   v:shadowOffsetY="-8.50394" />
+		<v:layer
+   v:name="容器"
+   v:index="0" />
+		<g
+   id="group122-1"
+   transform="translate(2.25,-2.83465)"
+   v:mID="122"
+   v:groupContext="group">
+			<title
+   id="title678">工作表.122</title>
+			<g
+   id="group2-2"
+   transform="translate(766.925,1.13687E-13)"
+   v:mID="2"
+   v:groupContext="group"
+   v:layerMember="0">
+				<v:userDefs>
+					<v:ud
+   v:nameU="msvShapeCategories"
+   v:prompt=""
+   v:val="VT4(ContainerStyleDefaults)" />
+					<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Container)" />
+					<v:ud
+   v:nameU="msvSDContainerMargin"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+					<v:ud
+   v:nameU="msvSDContainerResize"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDContainerLocked"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoHighlight"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoRibbon"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+					<v:ud
+   v:nameU="msvSDContainerStyleCount"
+   v:prompt=""
+   v:val="VT0(14):26" />
+					<v:ud
+   v:nameU="msvSDContainerRequiredCategories"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="msvSDContainerExcludedCategories"
+   v:prompt=""
+   v:val="VT4(DoNotContain)" />
+					<v:ud
+   v:nameU="msvSDHeadingStyle"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDHeadingStyleCount"
+   v:prompt=""
+   v:val="VT0(4):26" />
+					<v:ud
+   v:nameU="HeadingSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="RTL"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="FnForceContrast"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor2"
+   v:prompt=""
+   v:val="VT5(#fefefe)" />
+					<v:ud
+   v:nameU="HColor3"
+   v:prompt=""
+   v:val="VT5(#e9e9e9)" />
+					<v:ud
+   v:nameU="HColor4"
+   v:prompt=""
+   v:val="VT5(#efefef)" />
+					<v:ud
+   v:nameU="BColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BColor2"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="LineColor"
+   v:prompt=""
+   v:val="VT5(#d5d5d5)" />
+					<v:ud
+   v:nameU="visVersion"
+   v:prompt=""
+   v:val="VT0(15):26" />
+					<v:ud
+   v:nameU="Embellishment"
+   v:prompt=""
+   v:val="VT0(2):26" />
+					<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+					<v:ud
+   v:nameU="HColor1"
+   v:prompt=""
+   v:val="VT5(#bfbfbf)" />
+					<v:ud
+   v:nameU="HColor2"
+   v:prompt=""
+   v:val="VT5(#757575)" />
+					<v:ud
+   v:nameU="HColor3"
+   v:prompt=""
+   v:val="VT5(#2b2b2b)" />
+					<v:ud
+   v:nameU="HColor4"
+   v:prompt=""
+   v:val="VT5(#555555)" />
+					<v:ud
+   v:nameU="BColor1"
+   v:prompt=""
+   v:val="VT5(#b3b3b3)" />
+					<v:ud
+   v:nameU="BColor2"
+   v:prompt=""
+   v:val="VT5(#808080)" />
+					<v:ud
+   v:nameU="LineColor"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+				</v:userDefs>
+				<title
+   id="title680">古典.465</title>
+				<g
+   id="group3-3"
+   v:mID="3"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Corner6"
+   v:prompt=""
+   v:val="VT0(0.19685039370079):24" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#96afcf)" />
+						<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#e9ebf5)" />
+						<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#e9ebf5)" />
+					</v:userDefs>
+					<title
+   id="title682">工作表.3</title>
+					<g
+   id="shape4-4"
+   v:mID="4"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2.83465,2.83465)">
+						<title
+   id="title684">工作表.4</title>
+						<v:userDefs>
+							<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeColors"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeEffects"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+							<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+							<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="OffsetX10"
+   v:prompt=""
+   v:val="VT0(0.039370078740157):24" />
+							<v:ud
+   v:nameU="OffsetY10"
+   v:prompt=""
+   v:val="VT0(-0.039370078740157):24" />
+							<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#96afcf)" />
+							<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+							<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						</v:userDefs>
+					</g>
+					<g
+   id="shape3-6"
+   v:mID="3"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<path
+   d="M0 579.54 L162.88 579.54 L325.77 579.54 L325.77 314.52 L162.88 314.52 L0 314.52 L0 579.54 Z"
+   class="st1"
+   id="path687" />
+					</g>
+				</g>
+				<g
+   id="group5-8"
+   transform="translate(0,-184.235)"
+   v:mID="5"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Heading)" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Hidden"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="Rounding"
+   v:prompt=""
+   v:val="VT0(0):1" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Inset"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsideRadius"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsetXInt"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="HTxtMargin"
+   v:prompt=""
+   v:val="VT0(0.059055118110236):24" />
+						<v:ud
+   v:nameU="HTxtWidth"
+   v:prompt=""
+   v:val="VT0(2.9527559055118):24" />
+						<v:ud
+   v:nameU="HLeft"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(2.9527559055118):24" />
+						<v:ud
+   v:nameU="SquareCorners7"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Offset"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Rounding8"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+						<v:ud
+   v:nameU="InsetX9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="InsetY9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY11"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Width12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="msvSDContainerHeadingEdge"
+   v:prompt=""
+   v:val="VT4(Bottom)" />
+						<v:ud
+   v:nameU="HLineVisible"
+   v:prompt=""
+   v:val="VT0(1):5" />
+						<v:ud
+   v:nameU="HFillVisible"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="HTxtWidth"
+   v:prompt=""
+   v:val="VT0(4.5245346740254):1" />
+						<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(4.5245346740254):1" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+					</v:userDefs>
+					<title
+   id="title691">工作表.5</title>
+					<desc
+   id="desc693">关联分析 (时变&amp;组集体数据)</desc>
+					<g
+   id="shape6-9"
+   v:mID="6"
+   v:groupContext="shape"
+   v:layerMember="0">
+						<title
+   id="title695">工作表.6</title>
+						<v:userDefs>
+							<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeColors"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeEffects"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+							<v:ud
+   v:nameU="Rounding"
+   v:prompt=""
+   v:val="VT0(0):1" />
+							<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(3):26" />
+							<v:ud
+   v:nameU="HLeft"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(2.9527559055118):24" />
+							<v:ud
+   v:nameU="Hidden"
+   v:prompt=""
+   v:val="VT0(0):5" />
+							<v:ud
+   v:nameU="BowHeight7"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+							<v:ud
+   v:nameU="Offset7"
+   v:prompt=""
+   v:val="VT0(0.0052083333333333):3" />
+							<v:ud
+   v:nameU="AnchorPt7"
+   v:prompt=""
+   v:val="VT0(0.64439796587927):24" />
+							<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(4.5245346740254):1" />
+							<v:ud
+   v:nameU="Offset7"
+   v:prompt=""
+   v:val="VT0(0.03125):29" />
+							<v:ud
+   v:nameU="AnchorPt7"
+   v:prompt=""
+   v:val="VT0(1.7699311023622):24" />
+						</v:userDefs>
+					</g>
+					<g
+   id="shape5-13"
+   v:mID="5"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<v:textBlock
+   v:margins="rect(4,6,4,6)"
+   v:tabSpace="42.5197" />
+						<v:textRect
+   cx="162.883"
+   cy="539.148"
+   width="325.77"
+   height="80.7874" />
+						<path
+   d="M0 579.54 L325.77 579.54 L325.77 498.75 L162.88 498.75 L0 498.75 L0 579.54 Z"
+   class="st2"
+   id="path698" />
+						<text
+   x="96.88"
+   y="533.23"
+   class="st3"
+   v:langID="2052"
+   id="text710"><v:paragraph
+   v:horizAlign="1" /><v:tabList />关联分析<v:newlineChar /><tspan
+   x="51.43"
+   dy="1.398em"
+   class="st4"
+   id="tspan700">(</tspan><tspan
+   class="st5"
+   id="tspan702">时变</tspan><tspan
+   class="st4"
+   id="tspan704">&amp;</tspan><tspan
+   class="st5"
+   id="tspan706">组集体数据</tspan><tspan
+   class="st4"
+   id="tspan708">)</tspan></text>
+					</g>
+				</g>
+			</g>
+			<g
+   id="group7-21"
+   transform="translate(766.881,-282.488)"
+   v:mID="7"
+   v:groupContext="group"
+   v:layerMember="0">
+				<v:userDefs>
+					<v:ud
+   v:nameU="msvShapeCategories"
+   v:prompt=""
+   v:val="VT4(ContainerStyleDefaults)" />
+					<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Container)" />
+					<v:ud
+   v:nameU="msvSDContainerMargin"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+					<v:ud
+   v:nameU="msvSDContainerResize"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDContainerLocked"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoHighlight"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoRibbon"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+					<v:ud
+   v:nameU="msvSDContainerStyleCount"
+   v:prompt=""
+   v:val="VT0(14):26" />
+					<v:ud
+   v:nameU="msvSDContainerRequiredCategories"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="msvSDContainerExcludedCategories"
+   v:prompt=""
+   v:val="VT4(DoNotContain)" />
+					<v:ud
+   v:nameU="msvSDHeadingStyle"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDHeadingStyleCount"
+   v:prompt=""
+   v:val="VT0(4):26" />
+					<v:ud
+   v:nameU="HeadingSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="RTL"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="FnForceContrast"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor2"
+   v:prompt=""
+   v:val="VT5(#fefefe)" />
+					<v:ud
+   v:nameU="HColor3"
+   v:prompt=""
+   v:val="VT5(#e9e9e9)" />
+					<v:ud
+   v:nameU="HColor4"
+   v:prompt=""
+   v:val="VT5(#efefef)" />
+					<v:ud
+   v:nameU="BColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BColor2"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="LineColor"
+   v:prompt=""
+   v:val="VT5(#d5d5d5)" />
+					<v:ud
+   v:nameU="visVersion"
+   v:prompt=""
+   v:val="VT0(15):26" />
+					<v:ud
+   v:nameU="Embellishment"
+   v:prompt=""
+   v:val="VT0(2):26" />
+					<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+					<v:ud
+   v:nameU="HColor1"
+   v:prompt=""
+   v:val="VT5(#bfbfbf)" />
+					<v:ud
+   v:nameU="HColor2"
+   v:prompt=""
+   v:val="VT5(#757575)" />
+					<v:ud
+   v:nameU="HColor3"
+   v:prompt=""
+   v:val="VT5(#2b2b2b)" />
+					<v:ud
+   v:nameU="HColor4"
+   v:prompt=""
+   v:val="VT5(#555555)" />
+					<v:ud
+   v:nameU="BColor1"
+   v:prompt=""
+   v:val="VT5(#b3b3b3)" />
+					<v:ud
+   v:nameU="BColor2"
+   v:prompt=""
+   v:val="VT5(#808080)" />
+					<v:ud
+   v:nameU="LineColor"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+				</v:userDefs>
+				<title
+   id="title715">古典.470</title>
+				<g
+   id="group8-22"
+   v:mID="8"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Corner6"
+   v:prompt=""
+   v:val="VT0(0.19685039370079):24" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#96afcf)" />
+						<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#e9ebf5)" />
+						<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#e9ebf5)" />
+					</v:userDefs>
+					<title
+   id="title717">工作表.8</title>
+					<g
+   id="shape9-23"
+   v:mID="9"
+   v:groupContext="shape"
+   v:layerMember="0"
+   transform="translate(2.83465,2.83465)">
+						<title
+   id="title719">工作表.9</title>
+						<v:userDefs>
+							<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeColors"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeEffects"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+							<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+							<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="OffsetX10"
+   v:prompt=""
+   v:val="VT0(0.039370078740157):24" />
+							<v:ud
+   v:nameU="OffsetY10"
+   v:prompt=""
+   v:val="VT0(-0.039370078740157):24" />
+							<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#96afcf)" />
+							<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+							<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						</v:userDefs>
+					</g>
+					<g
+   id="shape8-25"
+   v:mID="8"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<path
+   d="M0 579.54 L162.9 579.54 L325.81 579.54 L325.81 287.57 L162.9 287.57 L0 287.57 L0 579.54 Z"
+   class="st1"
+   id="path722" />
+					</g>
+				</g>
+				<g
+   id="group10-27"
+   transform="translate(0,-206.929)"
+   v:mID="10"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Heading)" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Hidden"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="Rounding"
+   v:prompt=""
+   v:val="VT0(0):1" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Inset"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsideRadius"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsetXInt"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="HTxtMargin"
+   v:prompt=""
+   v:val="VT0(0.059055118110236):24" />
+						<v:ud
+   v:nameU="HTxtWidth"
+   v:prompt=""
+   v:val="VT0(2.9527559055118):24" />
+						<v:ud
+   v:nameU="HLeft"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(2.9527559055118):24" />
+						<v:ud
+   v:nameU="SquareCorners7"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Offset"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Rounding8"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+						<v:ud
+   v:nameU="InsetX9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="InsetY9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY11"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Width12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="msvSDContainerHeadingEdge"
+   v:prompt=""
+   v:val="VT4(Bottom)" />
+						<v:ud
+   v:nameU="HLineVisible"
+   v:prompt=""
+   v:val="VT0(1):5" />
+						<v:ud
+   v:nameU="HFillVisible"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="HTxtWidth"
+   v:prompt=""
+   v:val="VT0(4.5251360078184):1" />
+						<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(4.5251360078184):1" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#000000)" />
+					</v:userDefs>
+					<title
+   id="title726">工作表.10</title>
+					<desc
+   id="desc728">特征分类 (多变量体数据)</desc>
+					<g
+   id="shape11-28"
+   v:mID="11"
+   v:groupContext="shape"
+   v:layerMember="0">
+						<title
+   id="title730">工作表.11</title>
+						<v:userDefs>
+							<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeColors"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="msvThemeEffects"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+							<v:ud
+   v:nameU="Rounding"
+   v:prompt=""
+   v:val="VT0(0):1" />
+							<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(3):26" />
+							<v:ud
+   v:nameU="HLeft"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(2.9527559055118):24" />
+							<v:ud
+   v:nameU="Hidden"
+   v:prompt=""
+   v:val="VT0(0):5" />
+							<v:ud
+   v:nameU="BowHeight7"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+							<v:ud
+   v:nameU="Offset7"
+   v:prompt=""
+   v:val="VT0(0.0052083333333333):3" />
+							<v:ud
+   v:nameU="AnchorPt7"
+   v:prompt=""
+   v:val="VT0(0.64439796587927):24" />
+							<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+							<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(4.5251360078184):1" />
+							<v:ud
+   v:nameU="Offset7"
+   v:prompt=""
+   v:val="VT0(0.03125):29" />
+							<v:ud
+   v:nameU="AnchorPt7"
+   v:prompt=""
+   v:val="VT0(1.8585137795276):24" />
+						</v:userDefs>
+					</g>
+					<g
+   id="shape10-31"
+   v:mID="10"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<v:textBlock
+   v:margins="rect(4,6,4,6)"
+   v:tabSpace="42.5197" />
+						<v:textRect
+   cx="162.905"
+   cy="537.022"
+   width="325.81"
+   height="85.0394" />
+						<path
+   d="M0 579.54 L325.81 579.54 L325.81 494.5 L162.9 494.5 L0 494.5 L0 579.54 Z"
+   class="st2"
+   id="path733" />
+						<text
+   x="96.9"
+   y="528.89"
+   class="st3"
+   v:langID="2052"
+   id="text743"><v:paragraph
+   v:horizAlign="1" /><v:tabList />特征分类<tspan
+   class="st6"
+   id="tspan735"> </tspan><tspan
+   x="74.91"
+   dy="1.536em"
+   class="st4"
+   id="tspan737">(</tspan><tspan
+   class="st5"
+   id="tspan739">多变量体数据</tspan><tspan
+   class="st4"
+   id="tspan741">)</tspan></text>
+					</g>
+				</g>
+			</g>
+			<g
+   id="group12-38"
+   transform="translate(6.39488E-14,-0.905387)"
+   v:mID="12"
+   v:groupContext="group"
+   v:layerMember="0">
+				<v:userDefs>
+					<v:ud
+   v:nameU="msvShapeCategories"
+   v:prompt=""
+   v:val="VT4(ContainerStyleDefaults)" />
+					<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Container)" />
+					<v:ud
+   v:nameU="msvSDContainerMargin"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+					<v:ud
+   v:nameU="msvSDContainerResize"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDContainerLocked"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoHighlight"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoRibbon"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+					<v:ud
+   v:nameU="msvSDContainerStyleCount"
+   v:prompt=""
+   v:val="VT0(14):26" />
+					<v:ud
+   v:nameU="msvSDContainerRequiredCategories"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="msvSDContainerExcludedCategories"
+   v:prompt=""
+   v:val="VT4(DoNotContain)" />
+					<v:ud
+   v:nameU="msvSDHeadingStyle"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDHeadingStyleCount"
+   v:prompt=""
+   v:val="VT0(4):26" />
+					<v:ud
+   v:nameU="HeadingSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="RTL"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="FnForceContrast"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor2"
+   v:prompt=""
+   v:val="VT5(#fefefe)" />
+					<v:ud
+   v:nameU="HColor3"
+   v:prompt=""
+   v:val="VT5(#e9e9e9)" />
+					<v:ud
+   v:nameU="HColor4"
+   v:prompt=""
+   v:val="VT5(#efefef)" />
+					<v:ud
+   v:nameU="BColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BColor2"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="LineColor"
+   v:prompt=""
+   v:val="VT5(#d5d5d5)" />
+					<v:ud
+   v:nameU="visVersion"
+   v:prompt=""
+   v:val="VT0(15):26" />
+					<v:ud
+   v:nameU="Embellishment"
+   v:prompt=""
+   v:val="VT0(2):26" />
+				</v:userDefs>
+				<title
+   id="title748">古典.315</title>
+				<g
+   id="group13-39"
+   v:mID="13"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Corner6"
+   v:prompt=""
+   v:val="VT0(0.19685039370079):24" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#96afcf)" />
+						<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+					</v:userDefs>
+					<title
+   id="title750">工作表.7</title>
+					<g
+   id="shape13-40"
+   v:mID="13"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<path
+   d="M0 579.54 L162.91 579.54 L325.81 579.54 L325.81 10.24 L162.91 10.24 L0 10.24 L0 579.54 Z"
+   class="st1"
+   id="path752" />
+					</g>
+				</g>
+				<g
+   id="group15-42"
+   transform="translate(0,-506.859)"
+   v:mID="15"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Heading)" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Hidden"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="Rounding"
+   v:prompt=""
+   v:val="VT0(0):1" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Inset"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsideRadius"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsetXInt"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="HTxtMargin"
+   v:prompt=""
+   v:val="VT0(0.059055118110236):24" />
+						<v:ud
+   v:nameU="HTxtWidth"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HLeft"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="SquareCorners7"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Offset"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Rounding8"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+						<v:ud
+   v:nameU="InsetX9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="InsetY9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY11"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Width12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="msvSDContainerHeadingEdge"
+   v:prompt=""
+   v:val="VT4(Bottom)" />
+						<v:ud
+   v:nameU="HLineVisible"
+   v:prompt=""
+   v:val="VT0(1):5" />
+						<v:ud
+   v:nameU="HFillVisible"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					</v:userDefs>
+					<title
+   id="title756">工作表.9</title>
+					<desc
+   id="desc758">voxel2vec Model</desc>
+					<g
+   id="shape15-43"
+   v:mID="15"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<v:textBlock
+   v:margins="rect(4,6,4,6)"
+   v:tabSpace="42.5197" />
+						<v:textRect
+   cx="162.904"
+   cy="548.322"
+   width="325.82"
+   height="62.4335" />
+						<path
+   d="M0 579.54 L325.81 579.54 L325.81 517.1 L162.91 517.1 L0 517.1 L0 579.54 Z"
+   class="st2"
+   id="path760" />
+						<text
+   x="62.1"
+   y="558.19"
+   class="st7"
+   v:langID="2052"
+   id="text764"><v:paragraph
+   v:horizAlign="1" /><v:tabList />voxel2vec<tspan
+   class="st8"
+   id="tspan762">模型</tspan></text>
+					</g>
+				</g>
+			</g>
+			<g
+   id="shape17-47"
+   v:mID="17"
+   v:groupContext="shape"
+   transform="translate(15.493,-195.696)">
+				<title
+   id="title769">圆形.320</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 559.61 A20.1968 20.1968 0 0 1 40.39 559.61 A20.1968 20.1968 0 0 1 -0 559.61 Z"
+   class="st9"
+   id="path771" />
+			</g>
+			<g
+   id="shape18-49"
+   v:mID="18"
+   v:groupContext="shape"
+   transform="translate(270.611,-360.24)">
+				<title
+   id="title774">圆形.321</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 559.61 A20.1968 20.1968 0 0 1 40.39 559.61 A20.1968 20.1968 0 0 1 -0 559.61 Z"
+   class="st10"
+   id="path776" />
+			</g>
+			<g
+   id="shape19-51"
+   v:mID="19"
+   v:groupContext="shape"
+   transform="translate(270.611,-37.7558)">
+				<title
+   id="title779">圆形.322</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 559.61 A20.1968 20.1968 0 0 1 40.39 559.61 A20.1968 20.1968 0 0 1 -0 559.61 Z"
+   class="st10"
+   id="path781" />
+			</g>
+			<g
+   id="shape20-53"
+   v:mID="20"
+   v:groupContext="shape"
+   transform="translate(59.6939,-452.439)">
+				<title
+   id="title784">工作表.323</title>
+				<desc
+   id="desc786">Center Symbol</desc>
+				<v:userDefs />
+				<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+				<v:textRect
+   cx="87.9818"
+   cy="566.048"
+   width="175.97"
+   height="26.9853" />
+				<rect
+   x="0"
+   y="552.556"
+   width="175.967"
+   height="26.9853"
+   class="st11"
+   id="rect788" />
+				<text
+   x="4"
+   y="573.94"
+   class="st12"
+   v:langID="2052"
+   id="text790"><v:paragraph /><v:tabList />中心样本</text>
+			</g>
+			<g
+   id="shape21-56"
+   v:mID="21"
+   v:groupContext="shape"
+   transform="translate(58.5509,-405.867)">
+				<title
+   id="title793">工作表.324</title>
+				<desc
+   id="desc795">Context Symbols</desc>
+				<v:userDefs />
+				<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+				<v:textRect
+   cx="95.6397"
+   cy="566.007"
+   width="191.29"
+   height="27.0704" />
+				<rect
+   x="0"
+   y="552.471"
+   width="191.282"
+   height="27.0704"
+   class="st11"
+   id="rect797" />
+				<text
+   x="3.99"
+   y="573.9"
+   class="st12"
+   v:langID="2052"
+   id="text799"><v:paragraph /><v:tabList />上下文样本</text>
+			</g>
+			<g
+   id="shape22-59"
+   v:mID="22"
+   v:groupContext="shape"
+   transform="translate(13.469,-405.944)">
+				<title
+   id="title802">圆形.325</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 566.05 A13.495 13.495 0 1 1 26.99 566.05 A13.495 13.495 0 0 1 0 566.05 Z"
+   class="st10"
+   id="path804" />
+			</g>
+			<g
+   id="shape23-61"
+   v:mID="23"
+   v:groupContext="shape"
+   transform="translate(13.469,-452.432)">
+				<title
+   id="title807">圆形.326</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 566.05 A13.495 13.495 0 1 1 26.99 566.05 A13.495 13.495 0 0 1 0 566.05 Z"
+   class="st9"
+   id="path809" />
+			</g>
+			<g
+   id="shape24-63"
+   v:mID="24"
+   v:groupContext="shape"
+   transform="translate(55.887,-215.62)">
+				<title
+   id="title812">工作表.327</title>
+				<path
+   d="M0 579.54 L42 579.54 L58.56 579.54"
+   class="st13"
+   id="path814" />
+			</g>
+			<g
+   id="shape25-69"
+   v:mID="25"
+   v:groupContext="shape"
+   transform="translate(-330.681,111.463) rotate(-64.1756)">
+				<title
+   id="title817">工作表.328</title>
+				<path
+   d="M0 579.54 L166.24 579.54 L182.8 579.54"
+   class="st13"
+   id="path819" />
+			</g>
+			<g
+   id="shape26-74"
+   v:mID="26"
+   v:groupContext="shape"
+   transform="translate(270.611,-270.153)">
+				<title
+   id="title822">圆形.329</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 559.61 A20.1968 20.1968 0 0 1 40.39 559.61 A20.1968 20.1968 0 0 1 -0 559.61 Z"
+   class="st10"
+   id="path824" />
+			</g>
+			<g
+   id="shape27-76"
+   v:mID="27"
+   v:groupContext="shape"
+   transform="translate(270.611,-127.842)">
+				<title
+   id="title827">圆形.330</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 559.61 A20.1968 20.1968 0 0 1 40.39 559.61 A20.1968 20.1968 0 0 1 -0 559.61 Z"
+   class="st10"
+   id="path829" />
+			</g>
+			<g
+   id="shape28-78"
+   v:mID="28"
+   v:groupContext="shape"
+   transform="translate(-204.836,-59.3951) rotate(-43.0773)">
+				<title
+   id="title832">工作表.331</title>
+				<path
+   d="M0 579.54 L92.46 579.54 L109.02 579.54"
+   class="st13"
+   id="path834" />
+			</g>
+			<g
+   id="shape29-83"
+   v:mID="29"
+   v:groupContext="shape"
+   transform="translate(566.861,-77.1931) rotate(40.4349)">
+				<title
+   id="title837">工作表.332</title>
+				<path
+   d="M0 579.54 L88.06 579.54 L104.62 579.54"
+   class="st13"
+   id="path839" />
+			</g>
+			<g
+   id="shape30-88"
+   v:mID="30"
+   v:groupContext="shape"
+   transform="translate(708.472,103.013) rotate(63.2438)">
+				<title
+   id="title842">工作表.333</title>
+				<path
+   d="M0 579.54 L160.32 579.54 L176.88 579.54"
+   class="st13"
+   id="path844" />
+			</g>
+			<g
+   id="shape31-93"
+   v:mID="31"
+   v:groupContext="shape"
+   transform="translate(114.446,-146.684)">
+				<title
+   id="title847">框.334</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<rect
+   x="0"
+   y="441.666"
+   width="76.5354"
+   height="137.875"
+   class="st15"
+   id="rect849" />
+			</g>
+			<g
+   id="shape32-95"
+   v:mID="32"
+   v:groupContext="shape"
+   transform="translate(287.088,-244.785)">
+				<title
+   id="title852">圆形.335</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 577 A2.65749 2.65749 0 0 1 5.31 577 A2.65749 2.65749 0 0 1 -0 577 Z"
+   class="st16"
+   id="path854" />
+			</g>
+			<g
+   id="shape33-97"
+   v:mID="33"
+   v:groupContext="shape"
+   transform="translate(287.088,-216.333)">
+				<title
+   id="title857">圆形.336</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 577 A2.65749 2.65749 0 0 1 5.31 577 A2.65749 2.65749 0 0 1 0 577 Z"
+   class="st16"
+   id="path859" />
+			</g>
+			<g
+   id="shape34-99"
+   v:mID="34"
+   v:groupContext="shape"
+   transform="translate(287.088,-187.88)">
+				<title
+   id="title862">圆形.337</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 577 A2.65749 2.65749 0 0 1 5.31 577 A2.65749 2.65749 0 0 1 0 577 Z"
+   class="st16"
+   id="path864" />
+			</g>
+			<g
+   id="group35-101"
+   transform="translate(382.503,-0.48931)"
+   v:mID="35"
+   v:groupContext="group"
+   v:layerMember="0">
+				<v:userDefs>
+					<v:ud
+   v:nameU="msvShapeCategories"
+   v:prompt=""
+   v:val="VT4(ContainerStyleDefaults)" />
+					<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Container)" />
+					<v:ud
+   v:nameU="msvSDContainerMargin"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+					<v:ud
+   v:nameU="msvSDContainerResize"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDContainerLocked"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoHighlight"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerNoRibbon"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="msvSDContainerStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+					<v:ud
+   v:nameU="msvSDContainerStyleCount"
+   v:prompt=""
+   v:val="VT0(14):26" />
+					<v:ud
+   v:nameU="msvSDContainerRequiredCategories"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="msvSDContainerExcludedCategories"
+   v:prompt=""
+   v:val="VT4(DoNotContain)" />
+					<v:ud
+   v:nameU="msvSDHeadingStyle"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					<v:ud
+   v:nameU="msvSDHeadingStyleCount"
+   v:prompt=""
+   v:val="VT0(4):26" />
+					<v:ud
+   v:nameU="HeadingSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="HeadingAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+					<v:ud
+   v:nameU="RTL"
+   v:prompt=""
+   v:val="VT0(0):5" />
+					<v:ud
+   v:nameU="FnForceContrast"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="HColor2"
+   v:prompt=""
+   v:val="VT5(#fefefe)" />
+					<v:ud
+   v:nameU="HColor3"
+   v:prompt=""
+   v:val="VT5(#e9e9e9)" />
+					<v:ud
+   v:nameU="HColor4"
+   v:prompt=""
+   v:val="VT5(#efefef)" />
+					<v:ud
+   v:nameU="BColor1"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="BColor2"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+					<v:ud
+   v:nameU="LineColor"
+   v:prompt=""
+   v:val="VT5(#d5d5d5)" />
+					<v:ud
+   v:nameU="visVersion"
+   v:prompt=""
+   v:val="VT0(15):26" />
+					<v:ud
+   v:nameU="Embellishment"
+   v:prompt=""
+   v:val="VT0(2):26" />
+				</v:userDefs>
+				<title
+   id="title867">古典.338</title>
+				<g
+   id="group36-102"
+   v:mID="36"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Corner6"
+   v:prompt=""
+   v:val="VT0(0.19685039370079):24" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="BackFillColor"
+   v:prompt=""
+   v:val="VT5(#96afcf)" />
+						<v:ud
+   v:nameU="BackLineColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+						<v:ud
+   v:nameU="DarkerColor"
+   v:prompt=""
+   v:val="VT5(#1f477d)" />
+					</v:userDefs>
+					<title
+   id="title869">工作表.280</title>
+					<g
+   id="shape36-103"
+   v:mID="36"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<path
+   d="M0 579.54 L162.91 579.54 L325.81 579.54 L325.81 10.25 L162.91 10.25 L0 10.25 L0 579.54 Z"
+   class="st1"
+   id="path871" />
+					</g>
+				</g>
+				<g
+   id="group38-105"
+   transform="translate(0,-478.785)"
+   v:mID="38"
+   v:groupContext="group"
+   v:layerMember="0">
+					<v:userDefs>
+						<v:ud
+   v:nameU="msvStructureType"
+   v:prompt=""
+   v:val="VT4(Heading)" />
+						<v:ud
+   v:nameU="CStyle"
+   v:prompt=""
+   v:val="VT0(2):26" />
+						<v:ud
+   v:nameU="HSide"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HSpan"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HAlign"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Hidden"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="HorzAlign"
+   v:prompt=""
+   v:val="VT0(1):26" />
+						<v:ud
+   v:nameU="Rounding"
+   v:prompt=""
+   v:val="VT0(0):1" />
+						<v:ud
+   v:nameU="SquareCorners"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Inset"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsideRadius"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="InsetXInt"
+   v:prompt=""
+   v:val="VT0(0):24" />
+						<v:ud
+   v:nameU="HTxtMargin"
+   v:prompt=""
+   v:val="VT0(0.059055118110236):24" />
+						<v:ud
+   v:nameU="HTxtWidth"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HLeft"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="HRight"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="SquareCorners7"
+   v:prompt=""
+   v:val="VT0(3):26" />
+						<v:ud
+   v:nameU="Offset"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Rounding8"
+   v:prompt=""
+   v:val="VT0(0.11811023622047):24" />
+						<v:ud
+   v:nameU="InsetX9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="InsetY9"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY11"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="OffsetY12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="Width12"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="msvSDContainerHeadingEdge"
+   v:prompt=""
+   v:val="VT4(Bottom)" />
+						<v:ud
+   v:nameU="HLineVisible"
+   v:prompt=""
+   v:val="VT0(1):5" />
+						<v:ud
+   v:nameU="HFillVisible"
+   v:prompt=""
+   v:val="VT0(0):5" />
+						<v:ud
+   v:nameU="FillForegndIn"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillBkgndIn"
+   v:prompt=""
+   v:val="VT0(0):26" />
+						<v:ud
+   v:nameU="BaseColor"
+   v:prompt=""
+   v:val="VT5(#ffffff)" />
+						<v:ud
+   v:nameU="FillPatternIn"
+   v:prompt=""
+   v:val="VT0(1):26" />
+					</v:userDefs>
+					<title
+   id="title875">工作表.282</title>
+					<desc
+   id="desc877">Low-dimensional Representations</desc>
+					<g
+   id="shape38-106"
+   v:mID="38"
+   v:groupContext="groupContent"
+   v:layerMember="0">
+						<v:textBlock
+   v:margins="rect(4,6,4,6)"
+   v:tabSpace="42.5197" />
+						<v:textRect
+   cx="162.904"
+   cy="534.284"
+   width="325.82"
+   height="90.51" />
+						<path
+   d="M0 579.54 L325.81 579.54 L325.81 489.03 L162.91 489.03 L0 489.03 L0 579.54 Z"
+   class="st2"
+   id="path879" />
+						<text
+   x="96.9"
+   y="544.16"
+   class="st3"
+   v:langID="2052"
+   id="text881"><v:paragraph
+   v:horizAlign="1" /><v:tabList />嵌入表征</text>
+					</g>
+				</g>
+			</g>
+			<g
+   id="shape40-109"
+   v:mID="40"
+   v:groupContext="shape"
+   transform="translate(1100.52,145.096) rotate(90)">
+				<title
+   id="title886">工作表.343</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st17"
+   id="rect888" />
+			</g>
+			<g
+   id="shape41-111"
+   v:mID="41"
+   v:groupContext="shape"
+   transform="translate(1148.85,145.096) rotate(90)">
+				<title
+   id="title891">工作表.344</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect893" />
+			</g>
+			<g
+   id="shape42-113"
+   v:mID="42"
+   v:groupContext="shape"
+   transform="translate(1197.18,145.096) rotate(90)">
+				<title
+   id="title896">工作表.345</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st19"
+   id="rect898" />
+			</g>
+			<g
+   id="shape43-115"
+   v:mID="43"
+   v:groupContext="shape"
+   transform="translate(1052.19,145.096) rotate(90)">
+				<title
+   id="title901">工作表.346</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st20"
+   id="rect903" />
+			</g>
+			<g
+   id="shape44-117"
+   v:mID="44"
+   v:groupContext="shape"
+   transform="translate(1052.19,193.427) rotate(90)">
+				<title
+   id="title906">工作表.347</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st17"
+   id="rect908" />
+			</g>
+			<g
+   id="shape45-119"
+   v:mID="45"
+   v:groupContext="shape"
+   transform="translate(1100.52,193.427) rotate(90)">
+				<title
+   id="title911">工作表.348</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect913" />
+			</g>
+			<g
+   id="shape46-121"
+   v:mID="46"
+   v:groupContext="shape"
+   transform="translate(1148.85,193.427) rotate(90)">
+				<title
+   id="title916">工作表.349</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st21"
+   id="rect918" />
+			</g>
+			<g
+   id="shape47-123"
+   v:mID="47"
+   v:groupContext="shape"
+   transform="translate(1197.18,193.427) rotate(90)">
+				<title
+   id="title921">工作表.350</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st17"
+   id="rect923" />
+			</g>
+			<g
+   id="shape48-125"
+   v:mID="48"
+   v:groupContext="shape"
+   transform="translate(1052.19,241.758) rotate(90)">
+				<title
+   id="title926">工作表.351</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect928" />
+			</g>
+			<g
+   id="shape49-127"
+   v:mID="49"
+   v:groupContext="shape"
+   transform="translate(1100.52,241.758) rotate(90)">
+				<title
+   id="title931">工作表.352</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st17"
+   id="rect933" />
+			</g>
+			<g
+   id="shape50-129"
+   v:mID="50"
+   v:groupContext="shape"
+   transform="translate(1148.85,241.758) rotate(90)">
+				<title
+   id="title936">工作表.353</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st22"
+   id="rect938" />
+			</g>
+			<g
+   id="shape51-131"
+   v:mID="51"
+   v:groupContext="shape"
+   transform="translate(1197.18,241.758) rotate(90)">
+				<title
+   id="title941">工作表.354</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st19"
+   id="rect943" />
+			</g>
+			<g
+   id="shape52-133"
+   v:mID="52"
+   v:groupContext="shape"
+   transform="translate(1052.19,290.09) rotate(90)">
+				<title
+   id="title946">工作表.355</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st17"
+   id="rect948" />
+			</g>
+			<g
+   id="shape53-135"
+   v:mID="53"
+   v:groupContext="shape"
+   transform="translate(1100.52,290.09) rotate(90)">
+				<title
+   id="title951">工作表.356</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect953" />
+			</g>
+			<g
+   id="shape54-137"
+   v:mID="54"
+   v:groupContext="shape"
+   transform="translate(1148.85,290.09) rotate(90)">
+				<title
+   id="title956">工作表.357</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st21"
+   id="rect958" />
+			</g>
+			<g
+   id="shape55-139"
+   v:mID="55"
+   v:groupContext="shape"
+   transform="translate(1197.18,290.09) rotate(90)">
+				<title
+   id="title961">工作表.358</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st23"
+   id="rect963" />
+			</g>
+			<g
+   id="shape56-141"
+   v:mID="56"
+   v:groupContext="shape"
+   transform="translate(1052.18,338.421) rotate(90)">
+				<title
+   id="title966">工作表.359</title>
+				<path
+   d="M48.33 531.21 L0 531.21 L0 579.54 L48.33 579.54 L48.33 531.21 Z"
+   class="st20"
+   id="path968" />
+			</g>
+			<g
+   id="shape57-143"
+   v:mID="57"
+   v:groupContext="shape"
+   transform="translate(1100.52,338.421) rotate(90)">
+				<title
+   id="title971">工作表.360</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st21"
+   id="rect973" />
+			</g>
+			<g
+   id="shape58-145"
+   v:mID="58"
+   v:groupContext="shape"
+   transform="translate(1148.85,338.421) rotate(90)">
+				<title
+   id="title976">工作表.361</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st20"
+   id="rect978" />
+			</g>
+			<g
+   id="shape59-147"
+   v:mID="59"
+   v:groupContext="shape"
+   transform="translate(1197.18,338.421) rotate(90)">
+				<title
+   id="title981">工作表.362</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st24"
+   id="rect983" />
+			</g>
+			<g
+   id="shape60-149"
+   v:mID="60"
+   v:groupContext="shape"
+   transform="translate(1052.19,386.753) rotate(90)">
+				<title
+   id="title986">工作表.363</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st25"
+   id="rect988" />
+			</g>
+			<g
+   id="shape61-151"
+   v:mID="61"
+   v:groupContext="shape"
+   transform="translate(1100.52,386.753) rotate(90)">
+				<title
+   id="title991">工作表.364</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st21"
+   id="rect993" />
+			</g>
+			<g
+   id="shape62-153"
+   v:mID="62"
+   v:groupContext="shape"
+   transform="translate(1148.85,386.753) rotate(90)">
+				<title
+   id="title996">工作表.365</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect998" />
+			</g>
+			<g
+   id="shape63-155"
+   v:mID="63"
+   v:groupContext="shape"
+   transform="translate(1197.18,386.753) rotate(90)">
+				<title
+   id="title1001">工作表.366</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect1003" />
+			</g>
+			<g
+   id="shape64-157"
+   v:mID="64"
+   v:groupContext="shape"
+   transform="translate(1052.19,435.084) rotate(90)">
+				<title
+   id="title1006">工作表.367</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st17"
+   id="rect1008" />
+			</g>
+			<g
+   id="shape65-159"
+   v:mID="65"
+   v:groupContext="shape"
+   transform="translate(1052.19,483.416) rotate(90)">
+				<title
+   id="title1011">工作表.368</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st26"
+   id="rect1013" />
+			</g>
+			<g
+   id="shape66-161"
+   v:mID="66"
+   v:groupContext="shape"
+   transform="translate(1100.52,435.084) rotate(90)">
+				<title
+   id="title1016">工作表.369</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect1018" />
+			</g>
+			<g
+   id="shape67-163"
+   v:mID="67"
+   v:groupContext="shape"
+   transform="translate(1100.52,483.416) rotate(90)">
+				<title
+   id="title1021">工作表.370</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st18"
+   id="rect1023" />
+			</g>
+			<g
+   id="shape68-165"
+   v:mID="68"
+   v:groupContext="shape"
+   transform="translate(1148.85,435.084) rotate(90)">
+				<title
+   id="title1026">工作表.371</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st21"
+   id="rect1028" />
+			</g>
+			<g
+   id="shape69-167"
+   v:mID="69"
+   v:groupContext="shape"
+   transform="translate(1148.85,483.416) rotate(90)">
+				<title
+   id="title1031">工作表.372</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st27"
+   id="rect1033" />
+			</g>
+			<g
+   id="shape70-169"
+   v:mID="70"
+   v:groupContext="shape"
+   transform="translate(1197.18,435.084) rotate(90)">
+				<title
+   id="title1036">工作表.373</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st26"
+   id="rect1038" />
+			</g>
+			<g
+   id="shape71-171"
+   v:mID="71"
+   v:groupContext="shape"
+   transform="translate(1197.18,483.416) rotate(90)">
+				<title
+   id="title1041">工作表.374</title>
+				<rect
+   x="0"
+   y="531.21"
+   width="48.3314"
+   height="48.3314"
+   class="st17"
+   id="rect1043" />
+			</g>
+			<g
+   id="shape72-173"
+   v:mID="72"
+   v:groupContext="shape"
+   transform="translate(419.495,-390.354)">
+				<title
+   id="title1046">圆形.375</title>
+				<desc
+   id="desc1048">0</desc>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+				<v:textRect
+   cx="20.1957"
+   cy="559.615"
+   width="40.41"
+   height="40.3943" />
+				<path
+   d="M0 559.61 A20.1971 20.1971 0 0 1 40.39 559.61 A20.1971 20.1971 0 0 1 0 559.61 Z"
+   class="st28"
+   id="path1050" />
+				<text
+   x="14.2"
+   y="566.81"
+   class="st29"
+   v:langID="2052"
+   id="text1052"><v:paragraph
+   v:horizAlign="1" /><v:tabList />0</text>
+			</g>
+			<g
+   id="shape73-176"
+   v:mID="73"
+   v:groupContext="shape"
+   transform="translate(419.495,-342.022)">
+				<title
+   id="title1055">圆形.376</title>
+				<desc
+   id="desc1057">1</desc>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+				<v:textRect
+   cx="20.1957"
+   cy="559.615"
+   width="40.41"
+   height="40.3943" />
+				<path
+   d="M0 559.61 A20.1971 20.1971 0 0 1 40.39 559.61 A20.1971 20.1971 0 0 1 0 559.61 Z"
+   class="st28"
+   id="path1059" />
+				<text
+   x="14.2"
+   y="566.81"
+   class="st29"
+   v:langID="2052"
+   id="text1061"><v:paragraph
+   v:horizAlign="1" /><v:tabList />1</text>
+			</g>
+			<g
+   id="shape74-179"
+   v:mID="74"
+   v:groupContext="shape"
+   transform="translate(419.495,-293.69)">
+				<title
+   id="title1064">圆形.377</title>
+				<desc
+   id="desc1066">2</desc>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+				<v:textRect
+   cx="20.1957"
+   cy="559.615"
+   width="40.41"
+   height="40.3943" />
+				<path
+   d="M0 559.61 A20.1971 20.1971 0 0 1 40.39 559.61 A20.1971 20.1971 0 0 1 0 559.61 Z"
+   class="st28"
+   id="path1068" />
+				<text
+   x="14.2"
+   y="566.81"
+   class="st29"
+   v:langID="2052"
+   id="text1070"><v:paragraph
+   v:horizAlign="1" /><v:tabList />2</text>
+			</g>
+			<g
+   id="shape75-182"
+   v:mID="75"
+   v:groupContext="shape"
+   transform="translate(419.495,-245.359)">
+				<title
+   id="title1073">圆形.378</title>
+				<desc
+   id="desc1075">3</desc>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<v:textBlock
+   v:margins="rect(4,4,4,4)"
+   v:tabSpace="42.5197" />
+				<v:textRect
+   cx="20.1957"
+   cy="559.615"
+   width="40.41"
+   height="40.3943" />
+				<path
+   d="M0 559.61 A20.1971 20.1971 0 0 1 40.39 559.61 A20.1971 20.1971 0 0 1 0 559.61 Z"
+   class="st28"
+   id="path1077" />
+				<text
+   x="14.2"
+   y="566.81"
+   class="st29"
+   v:langID="2052"
+   id="text1079"><v:paragraph
+   v:horizAlign="1" /><v:tabList />3</text>
+			</g>
+			<g
+   id="shape76-185"
+   v:mID="76"
+   v:groupContext="shape"
+   transform="translate(437.035,-211.098)">
+				<title
+   id="title1082">圆形.379</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 577 A2.65753 2.65753 0 0 1 5.31 577 A2.65753 2.65753 0 0 1 0 577 Z"
+   class="st16"
+   id="path1084" />
+			</g>
+			<g
+   id="shape77-187"
+   v:mID="77"
+   v:groupContext="shape"
+   transform="translate(437.035,-162.767)">
+				<title
+   id="title1087">圆形.380</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 577 A2.65753 2.65753 0 0 1 5.31 577 A2.65753 2.65753 0 0 1 0 577 Z"
+   class="st16"
+   id="path1089" />
+			</g>
+			<g
+   id="shape78-189"
+   v:mID="78"
+   v:groupContext="shape"
+   transform="translate(437.035,-114.435)">
+				<title
+   id="title1092">圆形.381</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 577 A2.65753 2.65753 0 0 1 5.31 577 A2.65753 2.65753 0 0 1 0 577 Z"
+   class="st16"
+   id="path1094" />
+			</g>
+			<g
+   id="shape79-191"
+   v:mID="79"
+   v:groupContext="shape"
+   transform="translate(437.035,-65.9956)">
+				<title
+   id="title1097">Circle.386</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 577 A2.65753 2.65753 0 0 1 5.31 577 A2.65753 2.65753 0 0 1 0 577 Z"
+   class="st16"
+   id="path1099" />
+			</g>
+			<g
+   id="shape80-193"
+   v:mID="80"
+   v:groupContext="shape"
+   transform="translate(787.857,-132.357)">
+				<title
+   id="title1102">圆形.475</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1104" />
+			</g>
+			<g
+   id="shape81-195"
+   v:mID="81"
+   v:groupContext="shape"
+   transform="translate(787.857,-17.4488)">
+				<title
+   id="title1107">圆形.476</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1109" />
+			</g>
+			<g
+   id="shape82-197"
+   v:mID="82"
+   v:groupContext="shape"
+   transform="translate(871.667,-17.4488)">
+				<title
+   id="title1112">圆形.477</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1114" />
+			</g>
+			<g
+   id="shape83-199"
+   v:mID="83"
+   v:groupContext="shape"
+   transform="translate(871.667,-132.357)">
+				<title
+   id="title1117">圆形.478</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1119" />
+			</g>
+			<g
+   id="shape84-201"
+   v:mID="84"
+   v:groupContext="shape"
+   transform="translate(955.477,-132.357)">
+				<title
+   id="title1122">圆形.479</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1124" />
+			</g>
+			<g
+   id="shape85-203"
+   v:mID="85"
+   v:groupContext="shape"
+   transform="translate(955.477,-17.4488)">
+				<title
+   id="title1127">圆形.480</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1129" />
+			</g>
+			<g
+   id="shape86-205"
+   v:mID="86"
+   v:groupContext="shape"
+   transform="translate(1039.29,-132.357)">
+				<title
+   id="title1132">圆形.481</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1134" />
+			</g>
+			<g
+   id="shape87-207"
+   v:mID="87"
+   v:groupContext="shape"
+   transform="translate(1039.29,-17.4488)">
+				<title
+   id="title1137">圆形.482</title>
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<path
+   d="M0 562.11 A17.4349 17.4349 0 0 1 34.87 562.11 A17.4349 17.4349 0 0 1 0 562.11 Z"
+   class="st28"
+   id="path1139" />
+			</g>
+			<g
+   id="shape88-209"
+   v:mID="88"
+   v:groupContext="shape"
+   transform="translate(1222.63,970.163) rotate(154.475)">
+				<title
+   id="title1142">工作表.88</title>
+				<path
+   d="M0 579.54 L185.75 579.54"
+   class="st30"
+   id="path1144" />
+			</g>
+			<g
+   id="shape89-212"
+   v:mID="89"
+   v:groupContext="shape"
+   transform="translate(1138.82,-75.7944) rotate(25.5245)">
+				<title
+   id="title1147">工作表.89</title>
+				<path
+   d="M0 579.54 L185.75 579.54"
+   class="st30"
+   id="path1149" />
+			</g>
+			<g
+   id="shape90-215"
+   v:mID="90"
+   v:groupContext="shape"
+   transform="translate(1456.98,866.303) rotate(136.319)">
+				<title
+   id="title1152">工作表.90</title>
+				<path
+   d="M0 579.54 L115.89 579.54"
+   class="st30"
+   id="path1154" />
+			</g>
+			<g
+   id="shape91-218"
+   v:mID="91"
+   v:groupContext="shape"
+   transform="translate(889.102,-52.3186)">
+				<title
+   id="title1157">工作表.91</title>
+				<path
+   d="M83.81 579.54 L0 499.5 L0 579.54"
+   class="st30"
+   id="path1159" />
+			</g>
+			<g
+   id="shape92-221"
+   v:mID="92"
+   v:groupContext="shape"
+   transform="translate(1289.36,866.303) rotate(136.319)">
+				<title
+   id="title1162">工作表.92</title>
+				<path
+   d="M0 579.54 L115.89 579.54"
+   class="st30"
+   id="path1164" />
+			</g>
+			<g
+   id="shape93-224"
+   v:mID="93"
+   v:groupContext="shape"
+   transform="translate(805.292,-52.3186)">
+				<title
+   id="title1167">工作表.93</title>
+				<path
+   d="M167.62 579.54 L0 499.5 L0 579.54"
+   class="st30"
+   id="path1169" />
+			</g>
+			<g
+   id="shape94-227"
+   v:mID="94"
+   v:groupContext="shape"
+   transform="translate(981.087,-105.051) rotate(17.658)">
+				<title
+   id="title1172">工作表.94</title>
+				<path
+   d="M0 579.54 L263.86 579.54"
+   class="st30"
+   id="path1174" />
+			</g>
+			<g
+   id="shape95-230"
+   v:mID="95"
+   v:groupContext="shape"
+   transform="translate(889.102,-52.3186)">
+				<title
+   id="title1177">工作表.95</title>
+				<path
+   d="M83.81 579.54 L83.81 499.5 L0 579.54"
+   class="st30"
+   id="path1179" />
+			</g>
+			<g
+   id="shape96-233"
+   v:mID="96"
+   v:groupContext="shape"
+   transform="translate(1373.17,28.0653) rotate(43.6814)">
+				<title
+   id="title1182">工作表.96</title>
+				<path
+   d="M0 579.54 L115.89 579.54"
+   class="st30"
+   id="path1184" />
+			</g>
+			<g
+   id="shape97-236"
+   v:mID="97"
+   v:groupContext="shape"
+   transform="translate(805.292,-52.3186)">
+				<title
+   id="title1187">工作表.97</title>
+				<path
+   d="M251.43 579.54 L251.43 499.5 L0 579.54"
+   class="st30"
+   id="path1189" />
+			</g>
+			<g
+   id="group98-239"
+   transform="translate(781.416,-303.157)"
+   v:mID="98"
+   v:groupContext="group">
+				<title
+   id="title1192">工作表.98</title>
+				<g
+   id="shape99-240"
+   v:mID="99"
+   v:groupContext="shape">
+					<title
+   id="title1194">工作表.99</title>
+					<path
+   d="M57.27 455 C59.95 416.21 101.92 415.34 146.28 409.5 C181.5 404.86 218.22 397.09 247.32 405.17 C271.21          411.8 289.97 429.12 291.82 448.49 C294.13 472.74 269.95 500.2 250.93 522.17 C232.03 543.98 218.22          560.38 190.78 569.84 C156.97 581.49 102.45 582.62 66.89 574.17 C42.85 568.46 27.48 558.37 13.97          537.33 C4.56 522.69 -3.95 502.73 1.94 491.83 C11.26 474.59 56.59 480.01 57.27 455 Z"
+   class="st28"
+   id="path1196" />
+				</g>
+				<g
+   id="shape100-242"
+   v:mID="100"
+   v:groupContext="shape"
+   transform="translate(275.705,-25.8799) rotate(26.1959)">
+					<title
+   id="title1199">工作表.100</title>
+					<path
+   d="M0 561.37 C23.04 552.02 36.01 536.64 49.69 532.48 C93.15 519.25 143.71 619.25 196.03 561.37"
+   class="st31"
+   id="path1201" />
+				</g>
+				<g
+   id="shape101-245"
+   v:mID="101"
+   v:groupContext="shape"
+   transform="translate(-398.136,346.31) rotate(-72.8313)">
+					<title
+   id="title1204">工作表.101</title>
+					<path
+   d="M0 541.6 C9.3 540.23 9.88 549.35 11.42 556.46 C15.76 576.52 27.75 580.61 40.29 579.37 C61.56 577.26          84.4 559.8 101.62 541.6"
+   class="st31"
+   id="path1206" />
+				</g>
+				<g
+   id="shape102-248"
+   v:mID="102"
+   v:groupContext="shape"
+   transform="translate(114.225,-66.0409) rotate(-5.47222)">
+					<title
+   id="title1209">工作表.102</title>
+					<path
+   d="M0 550.21 C3.6 550.85 7.36 551.91 11.07 552.29 C28.78 554.14 45.47 540.67 56.97 546.47 C67.32 551.68          73.45 572.51 82.26 578.01 C94.96 585.96 113.23 562.06 121.84 550.21"
+   class="st31"
+   id="path1211" />
+				</g>
+			</g>
+			<g
+   id="group103-251"
+   transform="translate(335.309,-256.978)"
+   v:mID="103"
+   v:groupContext="group">
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<title
+   id="title1215">一维单向箭头.499</title>
+				<g
+   id="group104-252"
+   transform="translate(0.511415,1.13687E-13)"
+   v:mID="104"
+   v:groupContext="group">
+					<title
+   id="title1217">工作表.303</title>
+					<g
+   id="shape105-253"
+   v:mID="105"
+   v:groupContext="shape">
+						<title
+   id="title1219">工作表.105</title>
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16           Z"
+   class="st32"
+   id="path1221" />
+					</g>
+					<g
+   id="shape106-255"
+   v:mID="106"
+   v:groupContext="shape">
+						<title
+   id="title1224">工作表.106</title>
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16           Z"
+   class="st33"
+   id="path1226" />
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4"
+   class="st34"
+   id="path1228" />
+					</g>
+				</g>
+				<g
+   id="shape107-258"
+   v:mID="107"
+   v:groupContext="shape"
+   transform="translate(0.511415,1.13687E-13)">
+					<title
+   id="title1232">工作表.304</title>
+					<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16 Z"
+   class="st35"
+   id="path1234" />
+				</g>
+				<g
+   id="shape108-260"
+   v:mID="108"
+   v:groupContext="shape"
+   transform="translate(-2.01401E-15,-7.50579)">
+					<title
+   id="title1237">工作表.305</title>
+					<rect
+   x="0"
+   y="565.032"
+   width="0.225129"
+   height="14.5092"
+   class="st36"
+   id="rect1239" />
+				</g>
+			</g>
+			<g
+   id="group109-262"
+   transform="translate(719.762,-380.147)"
+   v:mID="109"
+   v:groupContext="group">
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<title
+   id="title1243">一维单向箭头.505</title>
+				<g
+   id="group110-263"
+   transform="translate(0.511415,1.13687E-13)"
+   v:mID="110"
+   v:groupContext="group">
+					<title
+   id="title1245">工作表.303</title>
+					<g
+   id="shape111-264"
+   v:mID="111"
+   v:groupContext="shape">
+						<title
+   id="title1247">工作表.111</title>
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16           Z"
+   class="st32"
+   id="path1249" />
+					</g>
+					<g
+   id="shape112-266"
+   v:mID="112"
+   v:groupContext="shape">
+						<title
+   id="title1252">工作表.112</title>
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16           Z"
+   class="st33"
+   id="path1254" />
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4"
+   class="st34"
+   id="path1256" />
+					</g>
+				</g>
+				<g
+   id="shape113-269"
+   v:mID="113"
+   v:groupContext="shape"
+   transform="translate(0.511415,1.13687E-13)">
+					<title
+   id="title1260">工作表.304</title>
+					<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16 Z"
+   class="st35"
+   id="path1262" />
+				</g>
+				<g
+   id="shape114-271"
+   v:mID="114"
+   v:groupContext="shape"
+   transform="translate(-2.01401E-15,-7.50579)">
+					<title
+   id="title1265">工作表.305</title>
+					<rect
+   x="0"
+   y="565.032"
+   width="0.225129"
+   height="14.5092"
+   class="st36"
+   id="rect1267" />
+				</g>
+			</g>
+			<g
+   id="group115-273"
+   transform="translate(719.471,-101.9)"
+   v:mID="115"
+   v:groupContext="group">
+				<v:userDefs>
+					<v:ud
+   v:nameU="visVersion"
+   v:val="VT0(15):26" />
+				</v:userDefs>
+				<title
+   id="title1271">一维单向箭头.511</title>
+				<g
+   id="group116-274"
+   transform="translate(0.511415,1.13687E-13)"
+   v:mID="116"
+   v:groupContext="group">
+					<title
+   id="title1273">工作表.303</title>
+					<g
+   id="shape117-275"
+   v:mID="117"
+   v:groupContext="shape">
+						<title
+   id="title1275">工作表.117</title>
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16           Z"
+   class="st32"
+   id="path1277" />
+					</g>
+					<g
+   id="shape118-277"
+   v:mID="118"
+   v:groupContext="shape">
+						<title
+   id="title1280">工作表.118</title>
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16           Z"
+   class="st33"
+   id="path1282" />
+						<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4"
+   class="st34"
+   id="path1284" />
+					</g>
+				</g>
+				<g
+   id="shape119-280"
+   v:mID="119"
+   v:groupContext="shape"
+   transform="translate(0.511415,1.13687E-13)">
+					<title
+   id="title1288">工作表.304</title>
+					<path
+   d="M0 572.16 L28.81 572.16 L28.81 579.54 L39.88 564.78 L28.81 550.02 L28.81 557.4 L0 557.4 L0 572.16 Z"
+   class="st35"
+   id="path1290" />
+				</g>
+				<g
+   id="shape120-282"
+   v:mID="120"
+   v:groupContext="shape"
+   transform="translate(-2.01401E-15,-7.50579)">
+					<title
+   id="title1293">工作表.305</title>
+					<rect
+   x="0"
+   y="565.032"
+   width="0.225129"
+   height="14.5092"
+   class="st36"
+   id="rect1295" />
+				</g>
+			</g>
+		</g>
+	</g>
+<path
+   id="path1362"
+   d="M 385.28783,6.4236359 V 96.896195 H 710.96091 V 6.4236359 Z"
+   style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.71733481"
+   inkscape:connector-curvature="0" /><path
+   id="path1364"
+   d="M 6.2702362,132.39343 H 460.27453 V 6.2702362 H 6.2702362 Z"
+   clip-path="url(#clipEmfPath1)"
+   style="fill:none;stroke:#bfbfbf;stroke-width:6.27023602px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   inkscape:connector-curvature="0"
+   transform="matrix(0.71605148,0,0,0.71605148,380.794,2.0997117)" /><path
+   id="path1366"
+   d="m 494.68887,48.684771 c 0,-1.967815 -0.0468,-3.27969 -0.14056,-3.98248 l 2.81116,1.03076 -1.03075,0.843348 v 2.108372 h 0.65593 l 1.40558,-1.311877 2.20207,2.014666 h -4.26358 c 0,7.168463 0.0468,11.338353 0.14056,12.509669 l -1.78041,0.843349 v -2.24893 h -5.29435 v 2.108373 l -1.82725,0.843348 c 0.0937,-2.06152 0.14055,-6.746789 0.14055,-14.055809 -0.84335,0 -1.7804,0.0937 -2.71746,0.32797 l -1.12446,-1.030759 h 3.84192 c 0,-1.874108 -0.0468,-3.185985 -0.14055,-3.888775 l 2.858,1.171319 -1.03075,0.843348 v 1.874108 z m -5.29435,0.702789 v 4.310447 h 5.29435 V 49.38756 Z m 0,5.013239 v 5.38806 h 5.29435 v -5.38806 z m 18.92849,-1.733551 1.54613,-3.279688 h -6.93419 c -1.54614,2.389488 -3.09229,4.123037 -4.54472,5.153796 l -0.23425,-0.234263 c 2.20206,-2.764309 3.79506,-6.090851 4.77897,-10.073329 l 2.43633,1.405581 c -0.70277,0.281116 -1.40557,1.311875 -2.20208,3.045426 h 6.55938 l 1.17133,-1.311877 2.20207,2.108372 c -1.21816,0 -2.6706,1.124464 -4.40415,3.420246 z m -4.77898,-2.014664 2.99857,1.40558 -1.03075,0.843348 c 0.14056,0.749644 0.51538,1.780403 1.07761,3.092279 0.56223,1.265023 1.49929,2.530045 2.7643,3.795068 1.31188,1.265021 2.81116,2.014665 4.49786,2.342633 v 0.468529 c -1.26503,0.140557 -2.15522,0.609084 -2.57689,1.40558 -1.12448,-0.796496 -2.01467,-1.639845 -2.76432,-2.530045 -0.70279,-0.890202 -1.35872,-1.874109 -1.92095,-2.95172 -0.56223,-1.124465 -1.07761,-2.764308 -1.4993,-4.919533 -0.60908,3.420247 -1.82724,5.90344 -3.65451,7.49643 -1.87409,1.546139 -4.02933,2.670604 -6.51252,3.373395 l -0.14056,-0.327969 c 1.82726,-0.890203 3.2797,-1.780403 4.45101,-2.76431 1.17131,-0.983905 2.01467,-2.061518 2.5769,-3.185981 0.56223,-1.124466 0.9839,-2.295783 1.21816,-3.560806 0.28113,-1.265022 0.42169,-2.576898 0.51539,-3.982478 z m -15.97676,-12.275407 2.858,1.171318 -1.03075,0.796495 v 2.576899 h 8.24607 c 0,-2.811162 -0.0468,-4.778975 -0.14056,-5.950292 l 2.85801,0.937053 -1.03075,0.796497 v 4.216742 h 8.24607 c 0,-1.639845 -0.0468,-3.139131 -0.14056,-4.544712 l 2.71745,1.03076 -0.93704,0.843348 c 0,1.405581 0.0468,2.717458 0.14055,3.982479 l -1.7804,0.70279 v -1.311876 h -17.94458 l -0.8902,1.077613 -1.7804,-1.40558 0.74964,-0.609086 c 0,-1.639844 -0.0468,-3.092278 -0.14055,-4.310448 z m 37.01362,0.796497 1.12447,-1.03076 c 3.18598,0.983907 5.10693,2.108371 5.80973,3.326541 0.70278,1.21817 1.49929,3.092279 2.43635,5.669176 0.89018,2.576899 2.43633,5.247502 4.73211,7.964957 2.24893,2.717457 4.96638,4.544712 8.05866,5.38806 v 0.468528 c -1.49929,0 -2.5769,0.51538 -3.37339,1.546139 -2.15523,-1.499286 -3.93562,-3.139131 -5.38806,-4.872681 -1.49929,-1.780402 -2.6706,-3.560805 -3.5608,-5.341207 -0.89021,-1.780402 -1.73355,-4.029332 -2.53005,-6.653082 -1.17132,3.560804 -2.90487,6.793641 -5.1538,9.651654 -2.20208,2.858015 -5.62232,5.575471 -10.16703,8.246075 l -0.23426,-0.468526 c 3.84191,-2.717458 6.9342,-5.669177 9.18311,-8.85516 2.2958,-3.139131 3.8888,-6.699935 4.82585,-10.682413 0.28111,-0.937055 -0.14058,-1.780404 -1.21818,-2.483194 -1.07761,-0.702791 -2.5769,-1.311875 -4.54471,-1.874107 z m 35.42064,22.489291 6.69994,-2.576897 0.23425,0.468527 c -3.74821,2.014666 -6.41881,3.65451 -7.96496,4.825828 l -1.54613,-1.874108 c 0.42167,-0.32797 0.65594,-0.937054 0.65594,-1.874107 v -4.591565 c -2.43635,1.546139 -5.29436,2.811161 -8.66776,3.748216 l -0.0937,-0.468528 c 3.09229,-1.265023 5.66919,-2.670603 7.73069,-4.216743 2.06152,-1.546137 3.84193,-3.32654 5.38807,-5.247501 h -8.38663 c -1.12446,0 -2.15523,0.0937 -3.09228,0.327968 l -1.12446,-1.030759 h 13.39987 v -3.420245 h -5.06009 c -1.12448,0 -2.15523,0.140557 -3.09229,0.374821 l -1.12446,-1.077613 h 9.27684 V 41.89113 h -7.21532 c -1.12447,0 -2.15522,0.0937 -3.09227,0.327968 l -1.17133,-1.03076 h 11.47892 c 0,-1.499285 -0.0468,-2.858013 -0.14056,-4.123036 l 2.95172,1.171316 -1.03076,0.84335 v 2.10837 h 8.38663 l 1.7804,-1.639843 2.4832,2.342635 h -12.65028 v 3.139129 h 6.55937 l 1.6867,-1.499284 2.34263,2.202076 h -10.5887 v 3.420245 h 9.65164 l 1.96782,-1.780402 2.57691,2.483193 h -14.33694 c 0.89021,2.014666 1.96781,3.888774 3.23284,5.622323 2.4832,-1.827254 4.31045,-3.513951 5.43491,-5.060091 l 2.15524,2.014667 -1.26504,0.0937 c -2.24893,1.265023 -4.21673,2.389487 -5.95029,3.420248 1.40558,1.452432 2.95172,2.623749 4.63842,3.420246 1.73355,0.843348 3.88878,1.358728 6.46568,1.592991 v 0.468527 c -1.40559,0.140559 -2.3895,0.702791 -2.95173,1.639845 -2.53003,-0.843349 -4.87267,-2.202077 -7.02791,-4.076185 -2.20206,-1.874108 -3.98247,-4.732121 -5.3412,-8.574043 -1.21817,1.499286 -2.62375,2.95172 -4.26359,4.357301 z m 29.37664,-24.457106 2.43634,1.733551 -1.26503,0.609085 c -3.18598,3.560804 -5.66917,5.856586 -7.35587,6.887347 l -0.28112,-0.32797 c 1.45244,-1.405581 2.76431,-2.951721 3.88878,-4.54471 1.12446,-1.592993 1.96782,-3.045426 2.5769,-4.357303 z m 0,12.181701 v 14.383777 l -1.92097,0.843348 c 0.0468,-1.639843 0.0937,-3.279688 0.0937,-4.919533 v -8.433484 c -1.35872,1.40558 -2.858,2.623751 -4.49785,3.748215 l -0.2343,-0.374821 c 1.54615,-1.405581 3.09228,-3.185983 4.73213,-5.388059 1.63983,-2.202077 2.90486,-4.263596 3.74822,-6.184557 l 2.34263,1.874108 -1.17132,0.468527 c -1.12446,1.311875 -2.15523,2.62375 -3.09228,3.982479 z m 5.90343,1.874108 c 0,-1.405581 -0.0468,-2.858013 -0.0937,-4.357301 l 2.95172,1.405582 -1.17131,0.937054 v 12.1817 h 4.77897 V 40.719812 h -4.12304 c -1.12446,0 -2.15522,0.0937 -3.09227,0.327969 l -1.17133,-1.030759 h 14.43063 l 1.68671,-1.54614 2.43634,2.24893 h -8.48035 v 9.136275 h 4.12304 l 1.54615,-1.40558 2.29578,2.108371 h -7.96497 v 10.869825 h 4.73212 l 1.82726,-1.639844 2.5769,2.342633 h -18.03828 c -1.12447,0 -2.15523,0.140559 -3.09229,0.374823 l -1.17131,-1.077612 h 5.01324 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71733481"
+   inkscape:connector-curvature="0" /><path
+   id="path1386"
+   d="M 769.02841,2.3601776 V 87.390944 H 1094.6752 V 2.3601776 Z"
+   style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.71727687"
+   inkscape:connector-curvature="0" /><path
+   id="path1388"
+   d="M 6.2702362,124.81689 H 460.27453 V 6.2702362 H 6.2702362 Z"
+   clip-path="url(#clipEmfPath1-9)"
+   style="fill:none;stroke:#bfbfbf;stroke-width:6.27023602px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   inkscape:connector-curvature="0"
+   transform="matrix(0.71727685,0,0,0.71727685,764.53091,-2.1373177)" /><path
+   id="path1390"
+   d="m 879.31074,16.977037 h 6.18406 c 0,-2.061352 -0.0469,-3.701064 -0.14059,-4.919135 l 2.85782,1.030676 -0.93695,0.702734 v 3.185725 h 3.60731 l 1.82714,-1.405468 2.20184,2.108201 h -7.63629 v 4.919136 h 5.94974 l 1.92086,-1.639712 2.34243,2.342446 h -15.60072 c -1.12431,0 -2.15498,0.0937 -3.09203,0.327942 l -1.17117,-1.030676 h 7.87061 V 17.67977 h -1.92086 c -1.12431,0 -2.15498,0.0937 -3.09203,0.327943 z m 4.49751,19.535995 c 1.96763,0.140545 3.3731,0.23424 4.1227,0.23424 0.42166,0 0.79637,-0.04686 1.07754,-0.09372 0.32794,-0.0937 0.46843,-0.421636 0.46843,-0.936975 V 28.31445 h -7.07415 c -1.1244,0 -2.15507,0.140547 -3.09203,0.374791 l -1.17126,-1.077524 h 11.33744 c 0,-1.873957 -0.0469,-3.232575 -0.14049,-4.075856 l 2.9983,1.264921 -1.03067,0.843281 v 1.967654 h 2.43615 l 1.68655,-1.499166 2.29557,2.201899 h -6.41827 v 7.73007 c 0.0469,1.780256 -0.98382,2.951479 -3.09203,3.51367 -0.0937,-1.171224 -1.54606,-2.0145 -4.40378,-2.57669 z m -3.09203,-7.027337 c 1.54597,0.936979 2.57664,1.686561 3.09203,2.295597 0.51529,0.562187 0.79636,1.077526 0.79636,1.452316 0,0.374791 -0.23421,0.843281 -0.60901,1.311769 -0.3748,0.46849 -0.65588,0.702735 -0.84323,0.702735 -0.23431,0 -0.51538,-0.46849 -0.7496,-1.405468 -0.3748,-1.358618 -1.03067,-2.717236 -2.06135,-4.122704 z m -7.21473,10.306762 c 0.0937,-1.499161 0.14049,-5.012835 0.14049,-10.634703 -1.21803,0.609035 -2.43615,1.26492 -3.74791,1.967654 l -0.7496,1.077524 -1.68655,-2.248747 c 0.84333,-0.140547 2.90468,-0.84328 6.18406,-2.108201 v -6.4183 h -3.60732 c -0.70274,1.68656 -1.4992,3.279423 -2.43615,4.68489 l -0.42166,-0.234245 c 0.70273,-1.967654 1.21812,-3.841609 1.54606,-5.715566 0.3748,-1.827107 0.51529,-3.232575 0.51529,-4.263251 l 2.85781,0.936978 c -0.51538,0.327943 -0.89018,0.84328 -1.17126,1.639712 -0.23421,0.796431 -0.51529,1.546014 -0.7496,2.248747 h 3.46683 c 0,-4.450645 -0.0469,-7.26158 -0.14049,-8.432803 l 2.95144,1.264921 -1.03068,0.84328 v 6.324602 h 1.54607 l 1.54596,-1.405467 2.20194,2.108202 h -5.29397 v 5.621868 l 4.63809,-1.780258 0.28108,0.374792 -4.91917,2.576689 c 0,5.902963 0.0469,9.557173 0.14059,10.868944 z m 33.63751,-27.406613 2.43615,1.780258 -1.26499,0.562188 c -3.18565,3.607366 -5.66867,5.902962 -7.35522,6.933638 l -0.28108,-0.374792 c 1.45225,-1.405467 2.76409,-2.904632 3.8884,-4.497494 1.1244,-1.592864 1.96772,-3.092028 2.57674,-4.403798 z m 0,12.180716 v 14.429464 l -1.92087,0.796433 c 0.0469,-1.639709 0.0937,-3.279425 0.0937,-4.919137 v -8.432803 c -1.35862,1.405467 -2.85772,2.670388 -4.49741,3.747913 l -0.23431,-0.327943 c 1.54606,-1.405468 3.09203,-3.232575 4.73172,-5.387624 1.63978,-2.2019 2.90467,-4.263252 3.748,-6.230906 l 2.34243,1.873956 -1.17127,0.46849 c -1.1244,1.311769 -2.15507,2.670388 -3.09202,3.982157 z m 5.90298,1.873957 c 0,-1.405467 -0.0469,-2.857784 -0.0937,-4.3101 l 2.95144,1.405467 -1.17116,0.936979 v 12.180714 h 4.77858 V 15.899512 h -4.12271 c -1.1244,0 -2.15507,0.140547 -3.09202,0.374792 l -1.17127,-1.077526 h 14.42947 l 1.68655,-1.499164 2.43615,2.201898 h -8.47962 v 9.135538 h 4.1227 l 1.54597,-1.405468 2.29566,2.108201 h -7.96433 v 10.915794 h 4.73172 l 1.82714,-1.63971 2.57664,2.342448 h -18.03678 c -1.1244,0 -2.15508,0.09372 -3.09203,0.327938 l -1.17126,-1.030676 h 5.01289 z m 30.92028,-13.351939 2.57664,1.780258 -1.1244,0.562187 c -1.49911,2.482992 -3.09203,4.73174 -4.87221,6.699394 -1.73341,1.920805 -3.98221,3.654215 -6.7463,5.15338 l -0.23422,-0.374791 c 2.20194,-1.639712 4.16957,-3.560517 5.90298,-5.809265 1.73342,-2.201899 3.23252,-4.872286 4.49751,-8.011163 z m 9.04177,0.374791 -1.03068,0.562186 c 0.93705,3.138878 2.48302,5.528172 4.63809,7.261581 2.15508,1.73341 4.40378,2.764086 6.83994,3.185727 v 0.327942 c -1.31176,0.140546 -2.20194,0.655884 -2.71723,1.546014 -2.85782,-1.405468 -5.10652,-3.279423 -6.79307,-5.62187 -1.63979,-2.342445 -2.81095,-5.10653 -3.3732,-8.198558 z m -14.05466,11.009494 h 14.71054 l 1.26498,-1.171223 1.82704,1.639711 -1.03067,0.702735 c -0.18735,6.137206 -0.60902,9.885119 -1.31175,11.150039 -0.70274,1.311771 -1.87391,2.201899 -3.60732,2.76409 -0.23431,-1.264919 -1.45234,-2.155057 -3.60742,-2.670395 v -0.468486 c 2.15508,0.281095 3.56056,0.421643 4.16957,0.374791 0.65588,0 1.17126,-0.468488 1.4992,-1.31177 0.32794,-0.890128 0.70274,-4.310099 1.03068,-10.306759 h -6.69945 c -0.51529,3.326272 -1.54596,6.184056 -3.09202,8.479653 -1.54597,2.295596 -4.49751,4.310099 -8.90129,6.043513 l -0.23421,-0.468495 c 3.84163,-1.827109 6.46513,-3.935306 7.77688,-6.418299 1.35862,-2.436143 2.15508,-5.012833 2.38929,-7.636372 h -3.98212 l -1.17126,0.234245 z m 32.98163,-10.775249 0.28107,-0.374792 c 1.874,0.702733 3.18576,1.311769 3.98222,1.827107 0.74962,0.515338 1.12442,1.030676 1.07756,1.499165 -0.0469,0.515339 -0.18745,0.936979 -0.42167,1.31177 -0.28107,0.327942 -0.5154,0.515338 -0.65589,0.515338 -0.28108,0 -0.56225,-0.374791 -0.89019,-1.171222 -0.60901,-1.077525 -1.73341,-2.295597 -3.3731,-3.607366 z m 8.76081,5.481321 v -5.012833 c 0,-0.562187 -0.0469,-1.171223 -0.14058,-1.873956 l 3.3731,1.171223 -1.40548,0.936978 v 4.778588 h 2.43616 c 1.96772,-2.436143 3.41996,-4.497495 4.35701,-6.184056 l 2.57661,1.967655 -1.40547,0.374791 c -0.93693,0.609036 -2.52975,1.873956 -4.77855,3.84161 h 6.32461 l 1.82704,-1.499165 2.29566,2.201899 h -13.63307 v 0.702734 c 5.38769,1.311769 8.62018,2.248748 9.65086,2.810934 1.03068,0.562187 1.59292,1.030676 1.68655,1.405468 0.0469,0.374791 0.0937,0.655884 0.0937,0.843281 0,0.37479 -0.0469,0.702733 -0.18736,0.936978 -0.14058,0.234244 -0.23421,0.327942 -0.32793,0.327942 -0.42167,0 -1.1244,-0.468489 -2.06136,-1.405467 -1.26489,-1.171224 -4.2164,-2.670388 -8.85439,-4.450647 0,2.436143 0,3.888459 0.0937,4.450647 l -2.06135,0.702733 c 0.0937,-1.030676 0.14049,-3.092028 0.14049,-6.184056 -1.54596,1.780259 -3.32624,3.326273 -5.34075,4.684891 -2.01449,1.311769 -4.82544,2.436143 -8.43286,3.373122 l -0.14049,-0.327943 c 3.18576,-1.26492 5.66867,-2.529841 7.40209,-3.747912 1.78027,-1.264921 3.23263,-2.62354 4.45066,-4.122705 h -7.35524 c -1.1244,0 -2.15508,0.140547 -3.09203,0.374791 l -1.1244,-1.077525 z m 0.89009,9.276084 c -0.14049,0.46849 -0.32794,0.89013 -0.51529,1.264921 h 11.1031 l 1.78028,-1.639711 2.34242,2.342445 h -13.39876 c 1.45234,1.873956 3.23262,3.41997 5.38769,4.591193 2.15496,1.171222 4.87228,1.873953 8.15166,2.2019 v 0.468486 c -1.63969,0.09372 -2.67037,0.609043 -3.09203,1.639709 -2.85781,-1.030666 -5.24707,-2.38929 -7.16784,-4.07585 -1.92086,-1.733411 -3.23261,-3.326273 -3.93535,-4.825438 h -1.26489 c -1.03068,3.045179 -2.67037,5.200229 -4.91919,6.511998 -2.2487,1.264919 -5.43445,2.248752 -9.65088,2.857785 l -0.14049,-0.327947 c 3.09203,-0.702729 5.76239,-1.733405 8.0111,-2.998326 2.20195,-1.311771 3.79478,-3.326274 4.73183,-6.04351 h -8.62023 c -1.1244,0 -2.15507,0.140547 -3.09203,0.374791 l -1.17126,-1.077525 h 13.02401 c 0.18745,-1.077524 0.28108,-2.201898 0.3748,-3.373121 l 3.23261,1.405467 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71727687"
+   inkscape:connector-curvature="0" /><path
+   id="path1392"
+   d="m 852.13837,78.30226 v 0.421643 c -1.31175,-0.562191 -2.38929,-1.264919 -3.27948,-2.061362 -1.21803,-1.124371 -2.20184,-2.482985 -2.85772,-4.028999 -0.65587,-1.546014 -0.98381,-3.13888 -0.98381,-4.77859 0,-2.436142 0.65588,-4.638042 1.96763,-6.605699 1.31175,-2.014499 2.9983,-3.419966 5.15338,-4.310094 v 0.515338 c -1.07754,0.515338 -1.96763,1.264919 -2.62351,2.155047 -0.70273,0.936981 -1.17126,2.108205 -1.4992,3.513671 -0.3748,1.405466 -0.51538,2.904628 -0.51538,4.403799 0,1.686552 0.14058,3.232576 0.42166,4.59119 0.23421,1.077528 0.46852,1.920804 0.79646,2.57669 0.32794,0.655876 0.7496,1.264919 1.31175,1.873952 0.51539,0.609043 1.21813,1.171224 2.10822,1.733414 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71727687"
+   inkscape:connector-curvature="0" /><path
+   id="path1394"
+   d="m 864.03796,57.782435 -1.21803,0.655886 c 1.45234,0.74958 2.2487,1.264918 2.48301,1.592866 0.18735,0.281095 0.28108,0.562181 0.28108,0.843276 0,0.281095 -0.14059,0.609043 -0.42166,0.890128 -0.23422,0.281096 -0.42167,0.421643 -0.51529,0.421643 -0.18745,0 -0.3748,-0.281095 -0.51539,-0.749581 -0.18735,-0.702738 -0.7496,-1.639709 -1.63969,-2.810932 -0.89019,0.468485 -1.874,0.983823 -2.95154,1.499161 -1.03067,0.468486 -2.2487,0.983824 -3.65418,1.499162 l -0.18735,-0.374791 c 2.67037,-1.218066 4.87221,-2.482985 6.55886,-3.794756 1.68655,-1.358624 2.81085,-2.482995 3.41996,-3.419976 l 1.78018,1.405467 -0.93695,0.281095 -1.96763,1.499171 h 7.96433 l 1.12431,-1.030676 1.82714,1.686562 -1.1244,0.37479 c -1.96763,1.686562 -4.40378,3.232576 -7.2616,4.731737 -2.85772,1.452319 -6.79307,2.482995 -11.89959,3.138881 l -0.0937,-0.3748 c 3.3732,-0.562181 6.46523,-1.452309 9.36981,-2.623533 2.90467,-1.218076 5.57504,-2.998333 8.05805,-5.34078 z m 2.67046,5.52817 1.78018,1.499172 -1.03068,0.281095 c -0.23421,0.18739 -0.7495,0.562181 -1.63969,1.218066 h 8.0112 l 1.03067,-0.936981 1.78028,1.592867 -1.17126,0.468486 c -3.41997,3.232575 -6.83994,5.387632 -10.16618,6.465151 -3.3732,1.030676 -6.83993,1.686561 -10.30676,1.967657 v -0.374791 c 3.84153,-0.515338 7.30836,-1.405466 10.44725,-2.623542 3.13889,-1.264919 5.90298,-3.279419 8.386,-5.996656 h -8.52649 c -2.43615,1.592857 -5.29396,2.95148 -8.57334,4.028999 l -0.18745,-0.37479 c 2.06135,-0.936972 3.93535,-1.967648 5.57504,-3.045176 1.68655,-1.124371 3.23261,-2.482995 4.59123,-4.169557 z m -3.18575,4.77859 c 1.26489,0.843286 1.96762,1.499171 2.15507,1.920805 0.23422,0.37479 0.32794,0.702738 0.32794,0.890128 0,0.37479 -0.14059,0.702738 -0.46852,0.983833 -0.32794,0.281095 -0.51539,0.421633 -0.65588,0.421633 -0.28108,0 -0.46852,-0.281095 -0.51539,-0.843276 -0.14049,-0.890128 -0.51529,-1.920804 -1.1243,-3.092028 z m 26.75071,-10.30676 v 7.495827 h 3.70104 v -7.495827 z m -9.79147,-0.562181 h 11.24381 c -0.14059,-0.936981 -0.7496,-1.967657 -1.874,-3.092028 l 0.23421,-0.281095 c 1.21813,0.468486 2.10822,0.936971 2.57674,1.311771 0.46852,0.374791 0.70274,0.655876 0.70274,0.843276 0,0.374791 -0.28108,0.749581 -0.79646,1.218076 h 7.4958 l 1.63979,-1.499171 2.29557,2.061352 h -8.57335 v 7.495827 h 1.78028 l 1.03067,-1.030676 1.73342,1.499162 -1.1244,0.468495 c -1.45234,1.592857 -3.23262,3.279419 -5.3876,4.96598 2.71723,1.733414 6.27769,2.76409 10.72833,3.092028 v 0.374791 c -1.03068,0.09372 -1.68655,0.468495 -2.06135,1.12438 -3.98212,-0.843285 -7.16787,-2.108204 -9.55716,-3.841618 -3.18566,1.873962 -7.21474,3.185733 -12.18067,3.935314 l -0.0937,-0.374791 c 4.73172,-1.030676 8.52648,-2.482995 11.33743,-4.403799 -1.4992,-1.452319 -2.85781,-3.185723 -4.02907,-5.247075 h -1.87391 l -1.1244,0.18739 -0.79646,-0.749581 h 5.01289 v -7.495827 h -4.91916 c -0.89009,0 -1.73342,0.09372 -2.48302,0.281095 z m 7.82384,8.620199 c 1.26489,1.780256 2.67037,3.32627 4.2632,4.591189 1.35861,-1.124371 2.90467,-2.670385 4.63809,-4.591189 z m -2.43615,-6.652552 1.82704,1.499172 -1.03067,0.37479 c -1.96763,1.920804 -4.12271,3.654209 -6.37141,5.247075 l -0.32794,-0.281095 c 1.26489,-1.030676 2.38929,-2.155047 3.46683,-3.419966 1.07754,-1.311771 1.8739,-2.436142 2.43615,-3.419976 z m 11.0095,0.562191 c 3.65418,1.592866 5.66867,2.623542 6.04347,3.092028 0.3748,0.421643 0.56215,0.796433 0.56215,1.124371 0,0.234243 -0.0937,0.468495 -0.23421,0.749581 -0.14049,0.234252 -0.23422,0.3748 -0.3748,0.3748 -0.28108,0 -0.70274,-0.3748 -1.26489,-1.030686 -0.79647,-1.030676 -2.48302,-2.342437 -5.05966,-4.028999 z m 15.31955,4.872285 v 1.967656 h 5.43446 v -1.967656 z m 6.79307,0 v 1.967656 h 5.24711 v -1.967656 z m -6.79307,2.529847 v 1.873952 h 5.43446 v -1.873952 z m 6.79307,0 v 1.873952 h 5.24711 v -1.873952 z m 6.60572,-2.248752 c 0,2.436142 0.0469,4.029009 0.0937,4.872285 l -1.45233,0.562181 v -0.749572 h -5.24701 v 2.061343 h 5.57494 l 1.45234,-1.124371 1.63969,1.686561 h -8.66697 v 2.248752 h 7.91737 l 1.54606,-1.311771 1.78028,1.873952 h -20.19186 c -0.89018,0 -1.73341,0.09372 -2.48301,0.281095 l -0.93695,-0.843276 h 11.0094 v -2.248752 h -5.34073 c -0.89009,0 -1.73342,0.09372 -2.48302,0.281095 l -0.93695,-0.843285 h 8.7607 v -2.061343 h -5.43446 v 0.562181 l -1.45224,0.468486 c 0.0469,-1.264919 0.0937,-2.482986 0.0937,-3.701061 0,-1.218067 -0.0469,-2.436143 -0.0937,-3.607367 l 1.45224,0.749581 h 11.94655 l 0.60901,-0.749581 1.54597,1.030676 z m -13.11771,-9.276084 v 1.592866 h 11.47802 v -1.592866 z m 0,2.155047 v 1.686562 h 11.47802 v -1.686562 z m 12.78977,-1.967657 c 0,2.295605 0.0469,3.841619 0.0937,4.591199 l -1.40548,0.562191 V 60.031187 H 912.4797 v 0.843276 l -1.40548,0.56219 c 0.0469,-1.030676 0.0937,-2.295594 0.0937,-3.794766 0,-1.546014 -0.0469,-2.623532 -0.0937,-3.232575 l 1.54606,0.655885 h 11.10323 l 0.60901,-0.843276 1.68655,1.030676 z m -19.06746,6.090361 h 21.12881 l 1.45234,-1.218066 1.73342,1.780256 h -21.40999 c -0.56215,0 -1.21802,0.09372 -1.96762,0.281096 z m 31.20136,13.960979 c 0.0937,-2.0145 0.14049,-3.560524 0.14049,-4.684895 v -9.650874 c -1.1243,1.592866 -2.43615,3.13888 -4.02898,4.591199 l -0.32794,-0.281095 c 1.59283,-1.82711 2.95144,-3.982157 4.07584,-6.512004 1.1244,-2.529838 1.82714,-4.310094 2.01449,-5.293928 l 2.15508,1.311772 -0.79646,0.37479 c -1.12431,2.061352 -1.96763,3.654218 -2.57664,4.872285 l 1.63969,0.843285 -0.84323,0.655886 v 13.023998 z m 11.66537,-4.4038 c 0,1.171224 0.0469,2.3893 0.0937,3.654219 l -1.63969,0.655885 c 0.0469,-2.014499 0.0937,-3.373123 0.0937,-4.029008 v -1.218076 h -1.63978 c -0.89009,0 -1.73342,0.09372 -2.48292,0.281095 l -0.93705,-0.843286 h 5.05975 v -8.994979 c -1.03067,2.295595 -2.20194,4.310094 -3.60741,5.996656 -1.35862,1.686561 -2.85782,3.092028 -4.40378,4.216399 l -0.32794,-0.281095 c 1.31175,-1.124371 2.6235,-2.717228 3.98212,-4.77858 1.31175,-2.061362 2.34243,-4.029009 3.04516,-5.902971 h -2.29556 c -0.89009,0 -1.68655,0.09372 -2.48302,0.281096 l -0.89009,-0.843276 h 6.98052 v -2.810943 c 0,-0.655876 -0.0469,-1.546004 -0.0937,-2.717228 l 2.48292,1.030676 -0.93696,0.655876 v 3.841619 h 4.63809 l 1.35862,-1.218076 1.92076,1.780256 h -6.98051 c 0.93704,2.623543 2.15507,4.731747 3.56055,6.324604 1.40547,1.592866 2.67036,2.57669 3.84163,2.951481 v 0.37479 c -1.07754,0 -1.82714,0.281095 -2.15508,0.843286 -0.98381,-0.702738 -2.01449,-2.061353 -3.13889,-4.029009 -1.1244,-2.0145 -2.01449,-4.169547 -2.6235,-6.465152 h -0.42167 v 9.74457 h 2.06136 l 1.21812,-1.124371 1.8739,1.686562 h -5.15338 z m 17.05297,-3.560513 c -0.56215,0.796423 -1.07754,1.592857 -1.54596,2.342437 0.89009,0.1874 1.96762,0.374791 3.18565,0.655886 0.65597,-0.655886 1.26499,-1.639709 1.874,-2.998323 z m -4.21643,-12.649208 c 1.31185,0.749581 2.10822,1.311772 2.38929,1.686562 0.23431,0.37479 0.3748,0.655886 0.3748,0.843276 0,0.281095 -0.0937,0.609033 -0.32793,0.936981 -0.23422,0.281095 -0.42157,0.468485 -0.56216,0.468485 -0.23421,0 -0.42166,-0.327938 -0.65587,-0.936971 -0.23422,-0.890128 -0.7496,-1.827109 -1.54606,-2.810942 z m 8.85452,-0.281095 1.87391,1.124371 c -0.56216,0.09372 -1.03068,0.421643 -1.45234,0.936981 -0.46843,0.468486 -1.26489,1.218076 -2.38929,2.248752 l -0.28108,-0.1874 c 1.31175,-1.873952 2.06135,-3.279428 2.2488,-4.122704 z m -4.63809,-1.030676 2.29566,0.936981 -0.84332,0.655886 v 4.310094 h 2.57664 l 1.1244,-1.030676 1.78028,1.592866 h -5.48132 v 0.843276 c 1.59283,0.281096 2.57664,0.609043 2.95144,0.890129 0.3748,0.281095 0.56225,0.609043 0.56225,1.077528 0,0.1874 -0.0469,0.421643 -0.0937,0.702738 -0.0937,0.281086 -0.18745,0.421633 -0.32794,0.421633 -0.14059,0 -0.3748,-0.234242 -0.70274,-0.655885 -0.56225,-0.702729 -1.35861,-1.358614 -2.38929,-1.967647 v 2.904628 l -1.21812,0.74958 1.40547,0.562191 c -0.32794,0.09372 -0.7496,0.56219 -1.31175,1.405466 h 3.18575 l 0.70274,-0.843276 1.54597,1.218067 -0.89009,0.468495 c -0.70274,1.405466 -1.31176,2.436133 -1.874,2.998323 1.07753,0.234252 1.82713,0.515338 2.20193,0.796433 0.3748,0.281096 0.56216,0.609034 0.56216,1.077529 0,0.421642 -0.0937,0.655876 -0.28108,0.655876 -0.23421,0 -0.46852,-0.140538 -0.7496,-0.374791 -0.7496,-0.515328 -1.59283,-0.936971 -2.57664,-1.311771 -2.38929,1.733424 -5.24711,2.904638 -8.52649,3.466828 l -0.0937,-0.281095 c 3.13879,-0.936981 5.62181,-2.155047 7.40208,-3.654218 -1.35861,-0.468486 -2.71722,-0.749581 -4.02898,-0.936981 0.28108,-0.374791 0.84323,-1.311762 1.63969,-2.717228 h -1.31175 c -0.89018,0 -1.73341,0.09372 -2.48301,0.281095 l -0.93695,-0.843286 h 4.96593 c 0.28117,-0.655885 0.56225,-1.405466 0.79646,-2.248742 l 0.51539,0.18739 v -3.841609 c -1.82714,1.920805 -3.98222,3.419966 -6.37151,4.497495 l -0.18735,-0.281095 c 2.52978,-1.63971 4.45064,-3.373124 5.76239,-5.247076 h -1.874 c -0.89009,0 -1.68655,0.09372 -2.48291,0.281096 L 960.172,59.843787 h 6.04347 c 0,-2.248742 0,-4.216399 -0.0937,-5.902961 z m 8.47962,6.465151 c 0.32804,3.607366 1.17127,6.652542 2.43618,9.088685 1.1244,-2.155048 1.82713,-5.153381 2.06135,-9.088685 z m 0.51539,-6.465151 2.34245,1.218076 c -0.56215,0.187391 -0.93695,0.562181 -1.21805,1.124371 -0.28108,0.562181 -0.79646,1.733405 -1.54606,3.560514 h 5.85614 l 1.26498,-1.124371 1.82704,1.686561 h -2.9983 c -0.3748,4.59119 -1.26489,8.058009 -2.67037,10.306761 1.59283,1.733413 3.46683,2.810932 5.57495,3.279418 v 0.37479 c -1.31175,0.1874 -2.01449,0.562191 -2.06135,1.124381 -1.78018,-1.124381 -3.27938,-2.436142 -4.45064,-3.841618 -2.24873,1.967657 -4.96596,3.466828 -8.10485,4.403799 l -0.23421,-0.281086 c 3.18566,-1.311771 5.66867,-3.045185 7.54267,-5.153389 -1.31175,-2.951481 -2.01449,-6.184047 -2.06135,-9.650865 -0.70274,1.592857 -1.68655,3.138871 -2.9984,4.591189 l -0.32794,-0.1874 c 1.68665,-2.529837 3.09203,-6.324603 4.26329,-11.431131 z m 22.39379,22.112682 c 0.0937,-1.405466 0.0937,-2.857776 0.0937,-4.356947 0,-1.546014 0,-2.904628 -0.0937,-4.075852 l 1.45233,0.749581 h 2.90463 v -3.747913 h -4.87235 c -0.46843,4.403799 -2.29556,8.058008 -5.43445,10.962645 l -0.32794,-0.281095 c 1.4992,-1.8271 2.67036,-3.888452 3.46683,-6.137204 0.79646,-2.295594 1.17126,-4.965989 1.21802,-7.964312 0.0469,-3.045186 0,-5.200233 -0.0469,-6.512004 l 1.54606,0.843286 h 8.43283 l 0.8433,-0.749591 1.4523,1.218076 -0.8433,0.468486 c 0,1.873961 0.047,3.232575 0.094,4.122704 l -1.4054,0.56219 v -1.124371 h -8.66715 c 0,1.171224 -0.0937,2.529838 -0.23421,4.028999 h 4.77866 c 0,-1.218066 -0.047,-2.342437 -0.1405,-3.466818 l 2.2955,0.936981 -0.8433,0.56219 v 1.967647 h 3.42 l 1.1244,-1.030676 1.7334,1.592867 h -6.2778 v 3.747913 h 2.6705 l 0.8432,-0.843276 1.4523,1.218067 -0.8433,0.56219 c 0,2.482995 0.047,4.40379 0.094,5.809266 l -1.4053,0.749581 v -1.967657 h -7.02747 v 1.592866 z m -0.18745,-19.957635 v 3.373124 h 8.66711 v -3.373124 z m 1.63978,12.836608 v 4.403789 h 7.02733 v -4.403789 z m -7.40217,-4.497495 3.3731,-1.780266 0.23431,0.37479 -3.60741,2.436152 v 7.589523 c -0.0937,1.124371 -0.84323,1.920804 -2.29554,2.436142 0.14049,-0.655885 -0.70274,-1.311771 -2.57674,-1.967657 v -0.37479 c 1.4992,0.234243 2.48301,0.327947 2.85781,0.327947 0.37478,-0.04686 0.56213,-0.281095 0.56213,-0.702737 v -6.652542 c -1.92074,1.218066 -2.95142,2.061352 -2.99828,2.436142 l -1.54596,-1.686561 c 0.42156,-0.09372 1.92076,-0.702738 4.54424,-1.873962 v -4.77859 h -2.38926 l -1.21803,0.1874 -0.84333,-0.74958 h 4.45062 c 0,-2.57669 -0.0469,-4.4038 -0.0937,-5.434476 l 2.34243,1.124372 -0.79636,0.655885 v 3.654219 h 1.1244 l 1.31175,-1.030676 1.54596,1.592856 h -3.98211 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71727687"
+   inkscape:connector-curvature="0" /><path
+   id="path1396"
+   d="m 1011.6121,57.454497 v -0.515338 c 1.3117,0.609033 2.3893,1.264919 3.2793,2.061352 1.2182,1.171224 2.1551,2.482995 2.811,4.028999 0.7027,1.546024 1.0307,3.138881 1.0307,4.77859 0,2.436142 -0.6559,4.638051 -1.9677,6.652551 -1.3117,1.967657 -3.0451,3.419966 -5.1533,4.263252 V 78.30226 c 1.0775,-0.56219 1.9207,-1.264919 2.6235,-2.2019 0.6558,-0.890128 1.1712,-2.061352 1.4992,-3.466818 0.3279,-1.452319 0.5153,-2.904628 0.5153,-4.450642 0,-1.686562 -0.1405,-3.185733 -0.4217,-4.544347 -0.2342,-1.077528 -0.5153,-1.967657 -0.8432,-2.623542 -0.2811,-0.609034 -0.7496,-1.264919 -1.2649,-1.873952 -0.5154,-0.562191 -1.2181,-1.171224 -2.1082,-1.686562 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71727687"
+   inkscape:connector-curvature="0" /><path
+   id="path1419"
+   d="m 769.07361,311.76087 v 80.81087 h 325.77469 v -80.81087 z"
+   style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.71766186"
+   inkscape:connector-curvature="0" /><path
+   id="path1421"
+   d="M 6.2702362,118.87323 H 460.20921 V 6.2702362 H 6.2702362 Z"
+   clip-path="url(#clipEmfPath1-7)"
+   style="fill:none;stroke:#bfbfbf;stroke-width:6.27023602px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   inkscape:connector-curvature="0"
+   transform="matrix(0.71766185,0,0,0.71766185,764.5737,307.26096)" /><path
+   id="path1423"
+   d="m 875.00897,322.35441 0.23434,-0.37499 c 1.73435,0.8906 3.00001,1.64059 3.89058,2.3437 0.84368,0.70311 1.26557,1.40622 1.26557,2.01558 0,0.37499 -0.14057,0.79686 -0.42189,1.2656 -0.32811,0.46875 -0.51557,0.70311 -0.60934,0.70311 -0.32811,0 -0.70311,-0.51561 -1.12491,-1.64059 -0.70311,-1.54685 -1.78123,-2.99994 -3.23435,-4.31241 z m 8.3905,7.49985 c -0.0938,2.01558 -0.23444,4.12492 -0.42189,6.328 h 9.79663 l 1.96878,-1.78122 2.6718,2.48432 h -12.74975 c 0.79689,2.01558 2.15623,3.9843 4.12491,5.85926 1.96869,1.87496 4.87492,3.28118 8.62484,4.21867 v 0.32811 c -1.35934,0.0938 -2.2968,0.60937 -2.81246,1.54684 -2.34369,-1.07809 -4.45303,-2.57807 -6.37483,-4.40615 -1.96878,-1.82809 -3.37501,-4.35929 -4.31246,-7.54673 h -1.03123 c -0.79689,2.9062 -2.43746,5.34365 -4.9687,7.45298 -2.53114,2.06245 -5.85916,3.65618 -9.98408,4.82803 l -0.14066,-0.46875 c 4.35926,-1.68746 7.49983,-3.6093 9.42172,-5.67176 1.87491,-2.06246 3.09369,-4.12492 3.70303,-6.1405 h -8.85917 c -1.12501,0 -2.15624,0.0938 -3.09369,0.32813 l -1.17189,-1.03123 h 13.26532 c 0.18755,-1.73435 0.28132,-3.84368 0.28132,-6.328 h -7.64049 c -1.12501,0 -2.15624,0.0938 -3.09369,0.32811 l -1.125,-1.03123 h 14.53098 c 0.70311,-1.07809 1.35934,-2.39057 1.96868,-3.79679 0.56246,-1.4531 1.03123,-2.67183 1.26557,-3.6093 l 3.09369,1.87496 -1.5468,0.60936 c -1.45311,2.01559 -2.76557,3.65618 -3.84369,4.92177 h 6.70304 l 1.78114,-1.64059 2.57812,2.34371 z m 32.57745,-7.73422 c 1.21868,0.93747 2.10934,1.68747 2.6718,2.29683 0.56245,0.56248 0.84377,1.12497 0.93745,1.68746 0.0938,0.56249 -0.0938,1.03123 -0.51557,1.45309 -0.42188,0.42187 -0.70311,0.65624 -0.89066,0.65624 -0.32811,0 -0.60934,-0.51561 -0.74991,-1.54684 -0.28132,-1.45309 -0.89066,-2.90619 -1.82812,-4.31241 z m 10.45285,1.73433 c -1.54679,2.10934 -2.85925,3.9843 -3.98425,5.53114 h 3.09369 l 1.68745,-1.54684 2.2968,2.24996 h -7.87483 v 6.09363 h 4.92181 l 1.78123,-1.54685 2.34368,2.24995 h -8.53106 c 0.70312,2.43745 1.82802,4.54679 3.4218,6.37488 1.59369,1.82808 3.28114,3.04681 5.10926,3.56242 v 0.46874 c -1.45312,0 -2.43746,0.42187 -2.85935,1.17185 -1.64057,-1.40622 -2.99991,-3.09369 -4.12491,-5.15614 -1.12491,-2.01558 -1.78123,-4.21867 -2.06246,-6.56237 -0.14057,2.76557 -1.07812,5.20302 -2.6718,7.35923 -1.64057,2.10933 -3.93746,3.74992 -6.8436,4.82803 l -0.28123,-0.32812 c 2.48435,-1.40623 4.45303,-3.14056 5.81237,-5.15615 1.35935,-2.01558 2.10935,-4.21866 2.20303,-6.56237 h -3.89048 c -1.12501,0 -2.15624,0.0938 -3.09369,0.32813 l -1.12501,-1.03123 h 8.10918 v -6.09363 h -2.71869 c -1.12491,0 -2.15614,0.0938 -3.09369,0.32811 l -1.17179,-1.03123 h 8.7654 c 1.31245,-2.3437 2.34368,-4.92177 3.09369,-7.73422 l 3.00001,1.73435 z m -15.09343,16.87466 3.23435,-0.79685 0.14056,0.46874 -3.37491,1.03123 c 0,2.43745 0,3.93741 0,4.54678 0,0.56249 0.0469,1.2656 0.14066,2.01559 l -1.9219,0.93748 c 0.0938,-2.01559 0.14067,-4.31242 0.14067,-6.89049 -4.49992,1.49997 -7.07795,2.62495 -7.73418,3.37493 l -1.31255,-2.3437 c 1.31255,-0.14063 2.20312,-0.28125 2.71869,-0.46874 v -17.3434 c -0.28123,0 -0.89057,0.14062 -1.82802,0.37499 l -1.12501,-1.0781 h 11.0623 l 1.54679,-1.40622 2.20312,2.10933 h -3.89057 z m -6.28106,-15.46843 v 5.29676 h 4.64049 v -5.29676 z m 0,5.99988 v 4.92178 h 4.64049 v -4.92178 z m 0,11.0154 4.64049,-1.0781 v -4.31242 h -4.64049 z m 39.04605,-19.6871 2.57803,1.73434 -1.1718,0.60936 c -1.45312,2.48433 -3.0468,4.73428 -4.82803,6.65611 -1.78123,1.96872 -4.03114,3.70305 -6.74983,5.15615 l -0.28132,-0.32811 c 2.25001,-1.6406 4.21869,-3.56244 5.95303,-5.81239 1.68746,-2.20308 3.18747,-4.8749 4.49992,-8.01546 z m 8.99984,0.32811 -1.03123,0.60937 c 0.93745,3.14056 2.48435,5.53114 4.64048,7.26547 2.15624,1.73435 4.45303,2.76558 6.84361,3.14057 v 0.37499 c -1.26557,0.14062 -2.20303,0.65624 -2.71869,1.49997 -2.81246,-1.40622 -5.06237,-3.28118 -6.74983,-5.62489 -1.68746,-2.3437 -2.81246,-5.0624 -3.4218,-8.20295 z m -14.01532,11.01541 h 14.67155 l 1.31245,-1.17185 1.78123,1.64059 -1.03123,0.70311 c -0.18754,6.18738 -0.60934,9.9373 -1.26556,11.2029 -0.70312,1.31247 -1.9219,2.20308 -3.60935,2.76557 -0.28123,-1.26561 -1.50001,-2.15621 -3.60926,-2.71869 v -0.46875 c 2.10925,0.32812 3.51548,0.46875 4.17171,0.42187 0.65623,-0.0469 1.125,-0.46874 1.5,-1.35934 0.32812,-0.84374 0.65623,-4.26554 1.03123,-10.3123 h -6.70294 c -0.51566,3.37493 -1.54689,6.18738 -3.09369,8.53107 -1.54689,2.29684 -4.5468,4.31242 -8.90615,5.99989 l -0.28123,-0.46875 c 3.89058,-1.78121 6.4686,-3.89054 7.82804,-6.37487 1.31246,-2.43745 2.10925,-5.01552 2.39057,-7.68734 h -4.03124 l -1.1249,0.23437 z m 49.59268,14.9997 c 0.0938,-3.51556 0.14066,-8.8592 0.14066,-16.03093 h -6.32804 c 0,4.12492 -0.42179,7.31235 -1.35934,9.46856 -0.89057,2.20307 -2.85925,4.45303 -5.85926,6.70299 l -0.23434,-0.375 c 2.20312,-2.34369 3.74991,-4.54678 4.49992,-6.65611 0.79689,-2.10933 1.17179,-5.01552 1.17179,-8.71857 0,-3.74993 -0.0469,-6.98424 -0.14056,-9.79668 l 1.92179,1.17185 c 1.54689,-0.14062 3.32813,-0.46874 5.29681,-0.8906 1.96868,-0.42187 3.56248,-0.98437 4.78116,-1.68747 l 2.20312,2.10933 c -1.125,-0.0938 -5.20305,0.28124 -12.28109,1.03123 v 6.93735 h 10.21864 l 1.54679,-1.40622 2.2968,2.10934 h -5.90605 v 8.99982 c 0,1.40622 0,3.46867 0.0938,6.09363 z m -14.95278,-15.79656 c 0,8.06234 0.0469,13.17161 0.14057,15.32781 l -2.06246,0.70312 c 0.0938,-3.74993 0.14066,-8.43734 0.14066,-14.15597 -1.31246,2.7187 -2.95303,5.2499 -4.92181,7.49985 l -0.375,-0.23437 c 2.48435,-3.84367 4.26558,-8.10921 5.29681,-12.89037 h -3.23435 l -1.17179,0.23437 -1.03123,-0.93747 h 5.43737 c 0,-2.81245 -0.0469,-5.15615 -0.14066,-7.03112 l 2.95312,1.2656 -1.03123,0.84374 v 4.92178 h 1.82803 l 1.40623,-1.31248 2.20312,2.01558 h -5.43738 v 3.04682 c 1.96869,0.93748 3.23426,1.64059 3.74992,2.10933 0.51557,0.46874 0.79689,0.8906 0.79689,1.2656 0,0.32812 -0.18755,0.74999 -0.46878,1.2656 -0.28122,0.46874 -0.56245,0.74999 -0.70311,0.74999 -0.28123,0 -0.51567,-0.375 -0.79689,-1.07811 -0.42189,-1.0781 -1.26557,-2.29683 -2.57803,-3.6093 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71766186"
+   inkscape:connector-curvature="0" /><path
+   id="path1425"
+   d="m 828.69743,384.50941 v 0.42186 c -1.26566,-0.56249 -2.34368,-1.26559 -3.23435,-2.06246 -1.21868,-1.12498 -2.20302,-2.48432 -2.85934,-4.03116 -0.65623,-1.54685 -0.98435,-3.14057 -0.98435,-4.78116 0,-2.43745 0.65623,-4.64053 1.96878,-6.60924 1.31246,-2.01558 2.99992,-3.4218 5.10926,-4.31242 v 0.51561 c -1.03123,0.51562 -1.92189,1.26561 -2.57812,2.15622 -0.70311,0.93747 -1.17179,2.10932 -1.54679,3.51555 -0.32812,1.40623 -0.46878,2.90619 -0.46878,4.45304 0,1.64059 0.14066,3.18743 0.42189,4.54678 0.23434,1.0781 0.46877,1.92183 0.79689,2.57807 0.32811,0.65623 0.7499,1.2656 1.26557,1.87496 0.56245,0.60937 1.26557,1.17186 2.10934,1.73435 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71766186"
+   inkscape:connector-curvature="0" /><path
+   id="path1427"
+   d="m 847.8689,366.32227 c 0,-2.43745 -0.0469,-4.49991 -0.0938,-6.09363 l 2.57812,1.21873 -1.03123,0.65623 v 4.21867 h 1.54679 l 1.31246,-1.21873 1.96878,1.78122 h -4.82803 v 12.56225 c 0,1.17185 -0.75001,2.01558 -2.2969,2.53119 -0.0469,-0.93747 -1.17179,-1.64059 -3.37491,-2.06246 v -0.46873 c 1.82812,0.23437 3.00001,0.32811 3.51557,0.28124 0.46878,-0.0938 0.70312,-0.46874 0.70312,-1.12498 v -11.71851 h -5.3436 c -0.89066,0 -1.73434,0.0938 -2.48435,0.28124 l -0.93755,-0.84373 z m -6.70304,2.90619 c 1.78123,1.12497 2.85935,1.87497 3.14058,2.3437 0.32811,0.42187 0.46877,0.74999 0.46877,1.03123 0,0.28125 -0.14066,0.65624 -0.46877,1.07811 -0.28123,0.37499 -0.51557,0.60936 -0.65623,0.60936 -0.23434,0 -0.42189,-0.37499 -0.60934,-1.12497 -0.375,-1.12499 -1.07812,-2.34371 -2.20312,-3.65618 z m -8.06228,-4.96865 v 5.62489 h 4.26548 v -5.62489 z m 0,6.18738 v 5.99987 h 4.26548 v -5.99987 z m 5.67171,1.87496 c 0,2.99994 0.0469,4.92178 0.14066,5.81238 l -1.54689,0.74998 v -1.87495 h -4.26548 v 1.96871 l -1.5469,0.74998 c 0.0938,-2.01559 0.14067,-5.01552 0.14067,-8.99981 0,-4.03118 -0.0469,-6.60925 -0.14067,-7.7811 l 1.68756,0.74998 h 3.89048 l 0.84378,-0.93748 1.64057,1.21873 -0.84378,0.65624 z m 28.12451,-8.34358 v 7.49985 h 3.70303 v -7.49985 z m -9.79672,-0.56249 h 11.24974 c -0.14056,-0.93748 -0.75,-1.96871 -1.87491,-3.09369 l 0.23434,-0.28125 c 1.21878,0.46875 2.06246,0.93749 2.57812,1.31248 0.46868,0.37499 0.70312,0.65624 0.70312,0.84374 0,0.37499 -0.28132,0.74998 -0.84378,1.21872 h 7.54672 l 1.64057,-1.49997 2.2969,2.06246 h -8.57795 v 7.49985 h 1.73434 l 1.03123,-1.03123 1.78114,1.49997 -1.12491,0.46873 c -1.45312,1.59372 -3.23435,3.28119 -5.39058,4.96866 2.67189,1.73433 6.28115,2.76556 10.73418,3.09369 v 0.37499 c -1.03123,0.0938 -1.73435,0.46874 -2.06246,1.12497 -3.98426,-0.84373 -7.17172,-2.10933 -9.60918,-3.84367 -3.14057,1.87497 -7.2186,3.18744 -12.14041,3.93743 l -0.0938,-0.37499 c 4.73426,-1.03123 8.53106,-2.48434 11.34352,-4.40617 -1.54689,-1.4531 -2.85935,-3.18744 -4.03124,-5.2499 h -1.87491 l -1.125,0.1875 -0.84368,-0.74998 h 5.06237 v -7.49985 h -4.92181 c -0.89057,0 -1.73434,0.0938 -2.48435,0.28124 z m 7.82794,8.62482 c 1.26567,1.78122 2.6718,3.32807 4.21869,4.59367 1.40623,-1.12499 2.95303,-2.67183 4.64058,-4.59367 z m -2.48425,-6.65611 1.87491,1.49997 -1.03123,0.37499 c -1.96868,1.92184 -4.12492,3.65618 -6.37483,5.2499 l -0.32811,-0.28125 c 1.21868,-1.03123 2.39057,-2.1562 3.46859,-3.42181 1.07812,-1.31246 1.87501,-2.43745 2.39067,-3.4218 z m 11.0622,0.56249 c 3.65624,1.59371 5.67181,2.62494 6.04681,3.09369 0.375,0.42186 0.56245,0.79685 0.56245,1.12497 0,0.23437 -0.0938,0.46874 -0.23434,0.74999 -0.14066,0.23437 -0.28122,0.37499 -0.42189,0.37499 -0.23434,0 -0.65622,-0.37499 -1.21868,-1.03123 -0.84377,-1.03123 -2.48434,-2.34371 -5.06246,-4.03117 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71766186"
+   inkscape:connector-curvature="0" /><path
+   id="path1429"
+   d="m 895.58667,369.60345 h 5.39049 v 0.42187 c -0.74991,0.0469 -1.26557,0.1875 -1.64057,0.42187 -0.375,0.28125 -0.89057,1.03123 -1.68746,2.24995 -0.75,1.2656 -1.59368,2.39058 -2.53114,3.46868 0.74991,0.84374 1.45302,1.40622 2.06236,1.73434 0.60944,0.32812 1.17189,0.46874 1.78124,0.46874 0.60943,0 1.125,-0.14062 1.54689,-0.42186 0.375,-0.32812 0.70311,-0.74999 0.84368,-1.31247 l 0.51566,0.32811 c -0.32811,1.07811 -0.84378,1.92183 -1.54689,2.43745 -0.70312,0.51561 -1.5468,0.79686 -2.48425,0.79686 -0.70312,0 -1.40623,-0.18749 -2.15623,-0.56248 -0.70312,-0.32813 -1.50001,-0.93749 -2.34369,-1.73435 -1.07812,0.84373 -2.01567,1.4531 -2.90624,1.78122 -0.84368,0.32812 -1.73434,0.51561 -2.71868,0.51561 -1.40623,0 -2.53124,-0.37499 -3.37492,-1.03123 -0.84377,-0.7031 -1.26557,-1.54684 -1.26557,-2.48433 0,-0.93747 0.37491,-1.87495 1.12491,-2.81244 0.75,-0.93748 2.15624,-1.92183 4.21869,-2.95306 -0.42188,-0.79686 -0.70311,-1.4531 -0.84377,-1.96872 -0.14057,-0.51561 -0.18746,-1.03123 -0.18746,-1.49996 0,-1.35935 0.51557,-2.34371 1.59369,-3.04681 0.84377,-0.56249 1.82812,-0.84374 2.90623,-0.84374 0.98434,0 1.82812,0.28125 2.48435,0.84374 0.65623,0.51561 0.98434,1.21872 0.98434,2.01558 0,0.84373 -0.32811,1.54684 -0.93745,2.20308 -0.65633,0.60936 -1.73435,1.2656 -3.32813,2.01558 1.07812,1.78121 2.25001,3.37493 3.4218,4.8749 1.50001,-1.64059 2.25001,-3.04681 2.25001,-4.17178 0,-0.32813 -0.0938,-0.65624 -0.375,-0.93749 -0.18755,-0.23437 -0.46877,-0.32811 -0.79689,-0.37499 z m -4.92181,0.28125 c 1.07812,-0.46874 1.87501,-0.98435 2.39058,-1.54685 0.51566,-0.60936 0.79689,-1.26559 0.79689,-1.96871 0,-0.56248 -0.18746,-1.03123 -0.60934,-1.40622 -0.37501,-0.37499 -0.84378,-0.56248 -1.40623,-0.56248 -0.75001,0 -1.31246,0.23437 -1.68746,0.7031 -0.375,0.51562 -0.56246,0.93749 -0.56246,1.40622 0,0.375 0.0469,0.79686 0.18746,1.2656 0.14066,0.51562 0.46877,1.17185 0.89056,2.10934 z m 1.96878,7.31235 c -1.125,-1.40622 -1.92189,-2.43745 -2.34378,-3.04681 -0.42179,-0.65624 -0.93745,-1.4531 -1.45302,-2.43745 -1.03123,0.56249 -1.78123,1.12497 -2.29689,1.78121 -0.51557,0.65624 -0.7968,1.35935 -0.7968,2.10934 0,0.84372 0.28123,1.59371 0.89057,2.20308 0.60934,0.65624 1.40623,0.93747 2.39057,0.93747 0.56255,0 1.07812,-0.0938 1.59378,-0.28123 0.46868,-0.18751 1.1718,-0.60937 2.01557,-1.26561 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71766186"
+   inkscape:connector-curvature="0" /><path
+   id="path1431"
+   d="m 906.78963,374.10336 c 2.57802,-0.37499 4.49982,-0.70311 5.76548,-0.93747 l 0.0938,0.37499 c -0.89067,0.23437 -2.10935,0.60936 -3.65624,1.07809 -1.54679,0.46875 -2.62491,0.89061 -3.23425,1.35936 l -1.17189,-1.68747 c 0.70311,-0.1875 1.40623,-0.70311 2.10934,-1.49997 0.75001,-0.84373 1.78123,-2.24995 3.18746,-4.21867 -1.03122,0.1875 -1.96868,0.42187 -2.76557,0.70312 -0.79689,0.28124 -1.40623,0.51561 -1.875,0.79686 l -0.93746,-1.59372 c 0.65623,-0.14063 1.54689,-1.2656 2.57812,-3.32806 1.03123,-2.10934 1.64057,-3.70305 1.82802,-4.73428 l 1.87501,1.12498 c -0.60934,0.56248 -1.21878,1.40622 -1.87501,2.53119 -0.65622,1.12498 -1.64057,2.57808 -2.85925,4.40617 l 4.2186,-0.37499 c 0.70311,-1.21873 1.21878,-2.39059 1.64057,-3.56243 l 1.78123,1.12498 c -0.375,0.28124 -1.03123,1.17185 -2.06246,2.62494 -1.03123,1.49997 -2.57802,3.42181 -4.64048,5.81238 z m -2.81246,4.78115 c 0.84368,-0.14062 2.20302,-0.42185 4.07803,-0.84372 1.87491,-0.46875 3.56236,-0.89061 5.01548,-1.31248 l 0.18755,0.46874 c -0.93755,0.28124 -2.39057,0.84374 -4.31247,1.6406 -1.92179,0.74998 -3.18736,1.35934 -3.70302,1.82809 z m 12.09342,-16.12467 v 5.15614 h 6.56238 v -5.15614 z m 0,5.71864 v 5.24989 h 6.56238 v -5.24989 z m 0,5.81238 v 5.71864 h 6.56238 v -5.71864 z m -1.35934,-7.49985 c 0,-2.57807 -0.0469,-4.40616 -0.0938,-5.43739 l 1.45311,0.84374 h 6.46861 l 0.84377,-1.03123 1.64057,1.21872 -0.93745,0.74998 v 16.87467 h 0.75 l 1.5468,-1.31248 1.73434,1.87496 h -13.82787 c -0.89057,0 -1.73434,0.0938 -2.48425,0.28125 l -0.89066,-0.84373 h 3.7968 z m 21.51525,3.09369 v 2.1562 h 5.85926 v -2.1562 z m -1.45312,4.31242 c 0.0469,-2.53121 0.0938,-5.34365 0.0938,-8.43734 -1.31246,1.35935 -2.85935,2.62495 -4.73426,3.74993 l -0.18755,-0.28125 c 1.5,-1.21872 2.85935,-2.62494 4.12492,-4.26554 1.21877,-1.68747 2.15623,-3.32806 2.76557,-4.92178 l 2.06246,1.31248 -0.93746,0.28124 -1.54679,2.24996 h 12.98409 l 1.26557,-1.12498 1.73434,1.68747 h -8.95295 v 2.24995 h 4.82804 l 1.125,-1.03122 1.68746,1.59371 h -7.6405 v 2.06246 h 4.64058 l 1.12491,-1.03123 1.64067,1.59372 h -7.40616 v 2.1562 h 5.76549 l 1.21878,-1.12497 1.78123,1.68746 h -15.9841 v 1.12498 z m 6.37493,-13.87473 c 1.31245,0.42187 2.15613,0.79686 2.48425,1.17185 0.32811,0.32812 0.51566,0.60936 0.51566,0.89061 0,0.23438 -0.0938,0.51561 -0.375,0.84374 -0.23434,0.28124 -0.375,0.46873 -0.42189,0.46873 -0.28123,0 -0.51557,-0.28124 -0.75,-0.84373 -0.32812,-0.84373 -0.89057,-1.59372 -1.64057,-2.24996 z m -4.92181,4.12492 v 2.24995 h 5.85926 v -2.24995 z m 0,2.81244 v 2.06246 h 5.85926 v -2.06246 z m 5.3436,7.68735 c 0,-0.93749 -0.0469,-1.68747 -0.0938,-2.24996 l 2.25001,0.74998 -0.79689,0.65624 v 0.84374 h 8.24984 l 1.21877,-1.12498 1.78114,1.68746 h -10.12475 c 1.31246,1.35935 2.76558,2.43746 4.45304,3.18744 1.64057,0.74999 3.56246,1.21872 5.76548,1.40622 v 0.28125 c -1.03123,0.18749 -1.64057,0.56248 -1.87491,1.21872 -1.78123,-0.51561 -3.37501,-1.21872 -4.82803,-2.10934 -1.45312,-0.93747 -2.81246,-2.24994 -4.03124,-3.98429 h -0.60934 c 0,3.09369 0,5.10928 0.0938,5.99989 l -1.5468,0.74998 c 0.0469,-2.01559 0.0938,-4.21866 0.0938,-6.65611 -1.45311,1.40622 -3.0468,2.62494 -4.87492,3.65617 -1.82811,0.98435 -4.03114,1.87496 -6.56237,2.71869 l -0.0938,-0.37499 c 2.48435,-1.03123 4.54681,-2.10934 6.28115,-3.23431 1.73435,-1.17185 2.90614,-2.10933 3.51548,-2.85932 h -6.42171 c -0.89057,0 -1.68746,0.0938 -2.43746,0.28125 l -0.93746,-0.84373 z m 18.84345,7.12486 c 0.0469,-2.01559 0.0938,-3.56244 0.0938,-4.68741 v -9.65606 c -1.125,1.59372 -2.43746,3.14056 -4.03124,4.59366 l -0.28122,-0.28125 c 1.54689,-1.82808 2.90623,-3.98429 4.03114,-6.51549 1.17189,-2.53119 1.82812,-4.31242 2.01567,-5.29677 l 2.20302,1.31248 -0.84368,0.37499 c -1.125,2.06246 -1.96878,3.65618 -2.57812,4.8749 l 1.64057,0.84374 -0.7968,0.65623 v 13.03099 z m 11.62475,-4.40617 c 0,1.17186 0.0469,2.39058 0.14056,3.65618 l -1.68746,0.65623 c 0.0938,-2.01558 0.14066,-3.37493 0.14066,-4.03116 v -1.21873 h -1.68745 c -0.89067,0 -1.68746,0.0938 -2.43746,0.28125 l -0.93746,-0.84374 h 5.06237 V 367.166 c -1.03122,2.29683 -2.25,4.31242 -3.60935,5.99989 -1.40623,1.68746 -2.85925,3.09368 -4.45303,4.21866 l -0.32811,-0.28125 c 1.31246,-1.12497 2.62501,-2.71869 3.98435,-4.78115 1.35934,-2.06246 2.34369,-4.03117 3.0468,-5.90613 h -2.25001 c -0.93745,0 -1.73434,0.0938 -2.48425,0.28124 l -0.93755,-0.84373 h 7.03115 v -2.81245 c 0,-0.65623 -0.0469,-1.54684 -0.14066,-2.71869 l 2.48435,1.03123 -0.93745,0.65624 v 3.84367 h 4.64048 l 1.35934,-1.21872 1.96878,1.78121 h -7.03115 c 0.98434,2.62495 2.15623,4.73428 3.56246,6.328 1.40623,1.59372 2.71869,2.57807 3.89048,2.95306 v 0.37499 c -1.1249,0 -1.82802,0.28125 -2.20302,0.84374 -0.93755,-0.70311 -2.01557,-2.06246 -3.14057,-4.03117 -1.12501,-2.01559 -2.01558,-4.17179 -2.62501,-6.46862 h -0.42179 v 9.7498 h 2.06245 l 1.26557,-1.12498 1.82812,1.68747 h -5.15614 z m 17.85901,-3.56243 c -0.56255,0.79686 -1.07812,1.59372 -1.5469,2.3437 0.89067,0.18751 1.92192,0.375 3.18749,0.65624 0.60934,-0.65624 1.21868,-1.64059 1.82811,-2.99994 z m -4.26558,-12.65599 c 1.31245,0.74999 2.10934,1.31247 2.39057,1.68746 0.28123,0.375 0.42189,0.65624 0.42189,0.84374 0,0.28124 -0.14066,0.60936 -0.375,0.93748 -0.23434,0.28124 -0.42189,0.46874 -0.56246,0.46874 -0.18754,0 -0.42188,-0.32811 -0.60943,-0.93748 -0.28123,-0.89061 -0.7968,-1.82808 -1.5468,-2.81245 z m 8.90608,-0.28124 1.82812,1.12497 c -0.56246,0.0938 -1.03123,0.42187 -1.45312,0.93749 -0.46868,0.46873 -1.26557,1.21872 -2.34369,2.24994 l -0.32811,-0.18749 c 1.31246,-1.87496 2.06246,-3.28118 2.2968,-4.12491 z m -4.6405,-1.03123 2.24993,0.93747 -0.84368,0.65624 v 4.31242 h 2.57802 l 1.17189,-1.03123 1.73435,1.59372 h -5.48426 v 0.84373 c 1.59368,0.28124 2.57802,0.60936 2.95302,0.8906 0.375,0.28125 0.56246,0.60936 0.56246,1.07811 0,0.18749 -0.0469,0.42186 -0.0938,0.70311 -0.0938,0.28124 -0.18745,0.42187 -0.32811,0.42187 -0.14057,0 -0.375,-0.23437 -0.70312,-0.65624 -0.56245,-0.70311 -1.35934,-1.35935 -2.39057,-1.96872 v 2.9062 l -1.21868,0.74998 1.45312,0.5625 c -0.37501,0.0938 -0.79689,0.56248 -1.35935,1.40622 h 3.18737 l 0.75,-0.84374 1.54689,1.21873 -0.93755,0.46874 c -0.70311,1.40622 -1.31245,2.43745 -1.87491,2.99994 1.12501,0.23437 1.87491,0.51561 2.24991,0.79686 0.375,0.28125 0.56255,0.60936 0.56255,1.0781 0,0.42187 -0.0938,0.65623 -0.32811,0.65623 -0.18755,0 -0.42189,-0.14062 -0.70312,-0.37499 -0.75,-0.51561 -1.64066,-0.93748 -2.57812,-1.31247 -2.43748,1.73434 -5.24994,2.90619 -8.57796,3.46869 l -0.0938,-0.28125 c 3.14058,-0.93748 5.62492,-2.15621 7.40617,-3.65618 -1.35936,-0.46874 -2.7188,-0.74998 -3.98437,-0.93748 0.23434,-0.375 0.79689,-1.31248 1.64057,-2.7187 h -1.35934 c -0.89057,0 -1.73434,0.0938 -2.48425,0.28125 l -0.89066,-0.84373 h 4.9218 c 0.28123,-0.65624 0.56246,-1.40622 0.84368,-2.24996 l 0.51568,0.1875 v -3.84367 c -1.87502,1.92183 -3.98437,3.4218 -6.42173,4.49991 l -0.18755,-0.28125 c 2.53123,-1.64059 4.45303,-3.37493 5.76549,-5.24989 h -1.82802 c -0.93756,0 -1.73435,0.0938 -2.48435,0.28124 l -0.93746,-0.84373 h 6.09362 c 0,-2.24996 -0.0469,-4.21867 -0.0938,-5.90613 z m 8.4373,6.46862 c 0.32812,3.6093 1.17189,6.65611 2.48439,9.09356 1.0781,-2.1562 1.7812,-5.15614 2.0624,-9.09356 z m 0.51566,-6.46862 2.39053,1.21872 c -0.5625,0.1875 -0.9843,0.56249 -1.26562,1.12498 -0.28122,0.56248 -0.79679,1.73434 -1.54679,3.56243 h 5.90611 l 1.2187,-1.12498 1.875,1.68747 h -3 c -0.4218,4.59365 -1.3124,8.06233 -2.6718,10.31229 1.5469,1.73434 3.4218,2.81244 5.5312,3.28118 v 0.37499 c -1.3125,0.1875 -1.9687,0.56249 -2.0625,1.12499 -1.7812,-1.12499 -3.2343,-2.43746 -4.4061,-3.84368 -2.29684,1.96871 -5.01553,3.46868 -8.1561,4.40616 l -0.18755,-0.28125 c 3.14058,-1.31246 5.67181,-3.04681 7.49983,-5.15614 -1.31245,-2.95307 -1.96868,-6.18738 -2.06246,-9.65606 -0.70311,1.59372 -1.68745,3.14057 -2.99991,4.59367 l -0.28123,-0.18751 c 1.64057,-2.53119 3.0468,-6.32799 4.21869,-11.43726 z m 22.45263,22.12455 c 0.047,-1.40622 0.094,-2.85932 0.094,-4.35929 0,-1.54684 -0.047,-2.90619 -0.094,-4.07804 l 1.4062,0.74999 h 2.9062 v -3.74993 h -4.828 c -0.5156,4.40616 -2.3437,8.06233 -5.4842,10.96853 l -0.3282,-0.28124 c 1.5468,-1.82809 2.6718,-3.89055 3.4687,-6.1405 0.7968,-2.29684 1.2187,-4.96866 1.2187,-7.9686 0.047,-3.04681 0.047,-5.20301 -0.047,-6.51549 l 1.5469,0.84373 h 8.4842 l 0.7969,-0.74998 1.453,1.21873 -0.7968,0.46873 c 0,1.87497 0,3.23431 0.094,4.12492 l -1.4531,0.56249 v -1.12498 h -8.6718 c 0,1.17185 -0.047,2.5312 -0.1874,4.03117 h 4.7342 c 0,-1.21872 -0.047,-2.34371 -0.094,-3.46868 l 2.2499,0.93748 -0.7968,0.56249 v 1.96871 h 3.3749 l 1.125,-1.03123 1.7811,1.59372 h -6.281 v 3.74993 h 2.6718 l 0.7969,-0.84374 1.453,1.21873 -0.7968,0.56248 c 0,2.48433 0,4.40616 0.094,5.81239 l -1.4531,0.74999 v -1.96872 h -7.0311 v 1.59373 z m -0.2344,-19.96835 v 3.37494 h 8.6718 v -3.37494 z m 1.6406,12.84349 v 4.40616 h 7.0312 v -4.40616 z m -7.406,-4.49991 3.4218,-1.78121 0.1874,0.37499 -3.6092,2.43745 v 7.5936 c -0.094,1.12498 -0.8438,1.92183 -2.2501,2.43746 0.094,-0.65624 -0.7499,-1.31248 -2.578,-1.96872 v -0.37499 c 1.4999,0.23437 2.4375,0.32812 2.8125,0.32812 0.375,-0.0469 0.5624,-0.28125 0.5624,-0.70311 v -6.65612 c -1.9218,1.21873 -2.9062,2.06246 -2.9999,2.43745 l -1.5469,-1.68747 c 0.4219,-0.0938 1.9219,-0.7031 4.5468,-1.87496 v -4.78115 h -2.3436 l -1.2656,0.1875 -0.7969,-0.74999 h 4.4061 c 0,-2.57808 -0.047,-4.40616 -0.094,-5.43739 l 2.3905,1.12498 -0.8436,0.65624 v 3.65617 h 1.1249 l 1.3593,-1.03123 1.5469,1.59372 h -4.0311 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71766186"
+   inkscape:connector-curvature="0" /><path
+   id="path1433"
+   d="m 1035.2245,363.65044 v -0.51561 c 1.3125,0.60937 2.3906,1.31248 3.2812,2.10934 1.2187,1.12497 2.1562,2.43745 2.8593,3.98429 0.6562,1.54684 0.9844,3.14057 0.9844,4.82803 0,2.39057 -0.6563,4.59366 -1.9687,6.60925 -1.3125,2.01558 -3.0468,3.4218 -5.1562,4.26553 v -0.42186 c 1.0781,-0.51562 1.9218,-1.26561 2.6249,-2.20308 0.6563,-0.89061 1.1719,-2.06247 1.5,-3.46868 0.3282,-1.4531 0.5156,-2.9062 0.5156,-4.45304 0,-1.64059 -0.1406,-3.18744 -0.4218,-4.54679 -0.2344,-1.0781 -0.4688,-1.9687 -0.7969,-2.57807 -0.3281,-0.65623 -0.75,-1.31247 -1.3124,-1.87496 -0.5157,-0.60936 -1.2188,-1.21873 -2.1094,-1.73435 z"
+   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.71766186"
+   inkscape:connector-curvature="0" /></svg>
